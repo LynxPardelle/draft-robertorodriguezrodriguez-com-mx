@@ -14,7 +14,9 @@ Portable Zoolandingpage draft config for `robertorodriguezrodriguez.com.mx`.
 Test preview uses the shared testing host:
 
 ```text
-https://test.zoolandingpage.com.mx/?draftDomain=robertorodriguezrodriguez.com.mx&debugWorkspace=false
+https://test.zoolandingpage.com.mx/?draftDomain=test.robertorodriguezrodriguez.zoolandingpage.com.mx&debugWorkspace=false
 ```
+
+The `test.robertorodriguezrodriguez.zoolandingpage.com.mx` value is a runtime test alias declared in `site-config.json`; it lets the shared testing host resolve the test published pointer without publishing production.
 
 CTAs stay neutral until a public contact channel is explicitly approved.
