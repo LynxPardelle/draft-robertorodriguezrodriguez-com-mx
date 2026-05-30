@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "aliases": [
+    "robertorodriguezrodriguez.com",
+    "robertorodriguezrodriguez.zoolandingpage.com",
+    "robertorodriguezrodriguez.zoolandingpage.com.mx",
+    "terapiapsicologicaonlinemexico.com",
+    "terapiapsicologicaonlinemexico.com.mx",
+    "terapiapsicologicamexico.com",
+    "terapiapsicologicamexico.com.mx"
+  ],
+  "defaultPageId": "default",
+  "notFoundPageId": "not-found",
+  "routes": [
+    {
+      "path": "/",
+      "pageId": "default",
+      "label": "Inicio"
+    },
+    {
+      "path": "/privacidad",
+      "pageId": "privacidad",
+      "label": "Aviso de privacidad"
+    },
+    {
+      "path": "/terminos",
+      "pageId": "terminos",
+      "label": "Terminos y condiciones"
+    },
+    {
+      "path": "/404",
+      "pageId": "not-found",
+      "label": "Pagina no encontrada"
+    }
+  ],
+  "sitemap": {
+    "excludePaths": [
+      "/404",
+      "/privacidad",
+      "/terminos"
+    ]
+  },
+  "site": {
+    "theme": {
+      "defaultMode": "light",
+      "palettes": {
+        "light": {
+          "bgColor": "#faf7ef",
+          "textColor": "#1c2d28",
+          "titleColor": "#152720",
+          "linkColor": "#315546",
+          "accentColor": "#315546",
+          "secondaryBgColor": "#edf4f0",
+          "secondaryTextColor": "#53645b",
+          "secondaryTitleColor": "#1c2d28",
+          "secondaryLinkColor": "#315546",
+          "secondaryAccentColor": "#bdd0dc",
+          "successColor": "#315546",
+          "onSuccessColor": "#faf7ef",
+          "errorColor": "#a64040",
+          "onErrorColor": "#fff7f4",
+          "warningColor": "#c98f84",
+          "onWarningColor": "#2f1d18",
+          "infoColor": "#5c7885",
+          "onInfoColor": "#f7fbfc"
+        },
+        "dark": {
+          "bgColor": "#10211c",
+          "textColor": "#edf4f0",
+          "titleColor": "#ffffff",
+          "linkColor": "#bdd0dc",
+          "accentColor": "#bdd0dc",
+          "secondaryBgColor": "#1c332d",
+          "secondaryTextColor": "#c8d5cf",
+          "secondaryTitleColor": "#ffffff",
+          "secondaryLinkColor": "#d8e6ed",
+          "secondaryAccentColor": "#c98f84",
+          "successColor": "#bdd0dc",
+          "onSuccessColor": "#10211c",
+          "errorColor": "#ef9a9a",
+          "onErrorColor": "#2d0f0f",
+          "warningColor": "#e0b3aa",
+          "onWarningColor": "#2f1d18",
+          "infoColor": "#bdd0dc",
+          "onInfoColor": "#10211c"
+        }
+      }
+    },
+    "appIdentity": {
+      "identifier": "robertorodriguezrodriguezcommx",
+      "name": "Roberto Rodriguez Rodriguez",
+      "version": "1.0.0",
+      "description": "Terapia psicologica online en Mexico con atencion profesional, confidencial y humana."
+    },
+    "icons": {
+      "themeColor": "#315546"
+    },
+    "seo": {
+      "siteName": "Roberto Rodriguez Rodriguez",
+      "title": "Terapia psicologica online en Mexico | Roberto Rodriguez",
+      "description": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes en Mexico. Consulta disponibilidad con Roberto Rodriguez Rodriguez.",
+      "canonicalOrigin": "https://robertorodriguezrodriguez.com.mx",
+      "enforceCanonicalHost": true,
+      "forceHttps": true,
+      "defaultImage": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "openGraph": {
+        "type": "website",
+        "site_name": "Roberto Rodriguez Rodriguez",
+        "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+        "image:type": "image/jpeg",
+        "image:width": "1400",
+        "image:height": "933",
+        "image:alt": "Espacio tranquilo para terapia psicologica online"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+        "image:alt": "Espacio tranquilo para terapia psicologica online"
+      },
+      "keywords": {
+        "es": [
+          "terapia psicologica online",
+          "terapia psicologica en Mexico",
+          "psicologo online Mexico",
+          "consulta psicologica online",
+          "terapia para ansiedad",
+          "terapia para estres",
+          "psicologo clinico online"
+        ]
+      },
+      "robots": "index,follow,max-image-preview:large"
+    }
+  }
+}

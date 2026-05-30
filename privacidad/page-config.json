@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "pageId": "privacidad",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "privacidadPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-1-local-draft",
+    "routePurpose": "privacidad"
+  },
+  "seo": {
+    "title": {
+      "es": "Aviso de privacidad | Roberto Rodriguez Rodriguez"
+    },
+    "description": {
+      "es": "Informacion sobre el uso de datos en el sitio de Roberto Rodriguez Rodriguez."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Aviso de privacidad | Roberto Rodriguez Rodriguez"
+      },
+      "description": {
+        "es": "Informacion sobre el uso de datos en el sitio de Roberto Rodriguez Rodriguez."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/privacidad",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Aviso de privacidad | Roberto Rodriguez Rodriguez"
+      },
+      "description": {
+        "es": "Informacion sobre el uso de datos en el sitio de Roberto Rodriguez Rodriguez."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/privacidad",
+    "robots": "noindex,follow"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Aviso de privacidad | Roberto Rodriguez Rodriguez",
+        "description": "Informacion sobre el uso de datos en el sitio de Roberto Rodriguez Rodriguez.",
+        "url": "https://robertorodriguezrodriguez.com.mx/privacidad",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

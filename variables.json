@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "pageId": "allPages",
+  "variables": {
+    "navigation": [
+      {
+        "id": "navHome",
+        "label": "Inicio",
+        "value": "/"
+      },
+      {
+        "id": "navProceso",
+        "label": "Proceso",
+        "value": "/#proceso"
+      },
+      {
+        "id": "navEnfoque",
+        "label": "Enfoque",
+        "value": "/#enfoque"
+      },
+      {
+        "id": "navPrecios",
+        "label": "Precios",
+        "value": "/#precios"
+      },
+      {
+        "id": "navPreguntas",
+        "label": "Preguntas",
+        "value": "/#preguntas"
+      }
+    ],
+    "brand": {
+      "displayName": "Roberto Rodriguez Rodriguez"
+    },
+    "assets": {
+      "portraitUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/profile-images/roberto-profile-portrait.jpeg",
+      "supportImageUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/default/section-images/calm-online-therapy-workspace.jpg",
+      "ogImageUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg"
+    },
+    "ui": {
+      "contact": {
+        "ctaTarget": "#contacto"
+      }
+    }
+  }
+}

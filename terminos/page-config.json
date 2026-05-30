@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "pageId": "terminos",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "terminosPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-1-local-draft",
+    "routePurpose": "terminos"
+  },
+  "seo": {
+    "title": {
+      "es": "Terminos y condiciones | Roberto Rodriguez Rodriguez"
+    },
+    "description": {
+      "es": "Condiciones generales del sitio y limites del servicio de consulta psicologica online."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Terminos y condiciones | Roberto Rodriguez Rodriguez"
+      },
+      "description": {
+        "es": "Condiciones generales del sitio y limites del servicio de consulta psicologica online."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/terminos",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Terminos y condiciones | Roberto Rodriguez Rodriguez"
+      },
+      "description": {
+        "es": "Condiciones generales del sitio y limites del servicio de consulta psicologica online."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/terminos",
+    "robots": "noindex,follow"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Terminos y condiciones | Roberto Rodriguez Rodriguez",
+        "description": "Condiciones generales del sitio y limites del servicio de consulta psicologica online.",
+        "url": "https://robertorodriguezrodriguez.com.mx/terminos",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "pageId": "not-found",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "notFoundPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-1-local-draft",
+    "routePurpose": "not-found"
+  },
+  "seo": {
+    "title": {
+      "es": "Pagina no encontrada | Roberto Rodriguez Rodriguez"
+    },
+    "description": {
+      "es": "Pagina no encontrada del sitio de Roberto Rodriguez Rodriguez."
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/404",
+    "robots": "noindex,follow"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Pagina no encontrada | Roberto Rodriguez Rodriguez",
+        "url": "https://robertorodriguezrodriguez.com.mx/404",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

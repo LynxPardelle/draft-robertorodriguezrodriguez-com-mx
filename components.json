@@ -1,0 +1,375 @@
+{
+  "version": 1,
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "pageId": "allPages",
+  "components": [
+    {
+      "id": "skipToMainLink",
+      "type": "link",
+      "config": {
+        "href": "#main-content",
+        "text": "Saltar al contenido principal",
+        "ariaLabel": "Saltar al contenido principal",
+        "classes": "skipLink ank-position-absolute ank-top-0 ank-left-0 ank-padding-12px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-zIndex-1500",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "siteHeader",
+      "type": "container",
+      "config": {
+        "tag": "header",
+        "classes": "ank-position-sticky ank-top-0 ank-zIndex-1200 ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-12px ank-bg-bgColorOPA__0_96 ank-borderBottom-1px ank-borderColor-secondaryBgColor ank-backdropFilter-blurSD8pxED",
+        "components": [
+          "headerInner"
+        ]
+      }
+    },
+    {
+      "id": "headerInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-gap-16px ank-flexWrap-wrap",
+        "components": [
+          "brandLink",
+          "headerNav",
+          "headerCtaLink"
+        ]
+      }
+    },
+    {
+      "id": "brandLink",
+      "type": "link",
+      "config": {
+        "href": "/",
+        "text": "Roberto Rodriguez Rodriguez",
+        "ariaLabel": "Roberto Rodriguez Rodriguez",
+        "classes": "ank-d-block ank-color-titleColor ank-fontSize-1_05rem ank-fontWeight-900 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "maxWidth": "260px",
+          "lineHeight": "1.2"
+        }
+      }
+    },
+    {
+      "id": "headerNav",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-8px ank-alignItems-center",
+        "components": [
+          "navHome",
+          "navProceso",
+          "navEnfoque",
+          "navPrecios",
+          "navPreguntas"
+        ],
+        "ariaLabel": "Navegacion principal"
+      }
+    },
+    {
+      "id": "navHome",
+      "type": "link",
+      "config": {
+        "href": "/",
+        "text": "Inicio",
+        "ariaLabel": "Inicio",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "navProceso",
+      "type": "link",
+      "config": {
+        "href": "/#proceso",
+        "text": "Proceso",
+        "ariaLabel": "Proceso",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "navEnfoque",
+      "type": "link",
+      "config": {
+        "href": "/#enfoque",
+        "text": "Enfoque",
+        "ariaLabel": "Enfoque",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "navPrecios",
+      "type": "link",
+      "config": {
+        "href": "/#precios",
+        "text": "Precios",
+        "ariaLabel": "Precios",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "navPreguntas",
+      "type": "link",
+      "config": {
+        "href": "/#preguntas",
+        "text": "Preguntas",
+        "ariaLabel": "Preguntas",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "headerCtaLink",
+      "type": "link",
+      "config": {
+        "href": "/#contacto",
+        "text": "Agendar cita",
+        "ariaLabel": "Agendar cita",
+        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "target": "_self",
+        "styles": {
+          "whiteSpace": "normal",
+          "color": "var(--ank-onSuccessColor)"
+        }
+      }
+    },
+    {
+      "id": "floatingCta",
+      "type": "link",
+      "config": {
+        "href": "/#contacto",
+        "text": "Agendar cita",
+        "ariaLabel": "Agendar cita",
+        "classes": "ank-display-flex ank-d-md-none ank-alignItems-center ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-border-1px__solid__successColor ank-fontWeight-900 ank-textDecoration-none ank-textAlign-center",
+        "target": "_self",
+        "styles": {
+          "position": "fixed",
+          "right": "16px",
+          "bottom": "16px",
+          "zIndex": "1400",
+          "minHeight": "48px",
+          "boxShadow": "0 14px 30px rgba(49,85,70,0.28)",
+          "color": "var(--ank-onSuccessColor)"
+        }
+      }
+    },
+    {
+      "id": "siteFooter",
+      "type": "container",
+      "config": {
+        "tag": "footer",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-56px ank-bg-secondaryBgColor ank-color-textColor",
+        "components": [
+          "footerInner"
+        ],
+        "styles": {
+          "borderTop": "1px solid var(--ank-secondaryBgColor)"
+        },
+        "id": "site-footer"
+      }
+    },
+    {
+      "id": "footerInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gap-24px",
+        "components": [
+          "footerBrand",
+          "footerNav",
+          "footerLegalLinks"
+        ],
+        "styles": {
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 250px), 1fr))"
+        }
+      }
+    },
+    {
+      "id": "footerBrand",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
+        "components": [
+          "footerTitle",
+          "footerSummary",
+          "footerSafety"
+        ]
+      }
+    },
+    {
+      "id": "footerTitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Roberto Rodriguez Rodriguez",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_1rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "footerSummary",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Terapia psicologica online en Mexico con atencion profesional, confidencial y humana.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
+      }
+    },
+    {
+      "id": "footerSafety",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Este sitio no sustituye atencion de emergencia ni servicios medicos urgentes.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
+      }
+    },
+    {
+      "id": "footerNav",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px",
+        "components": [
+          "footerNavTitle",
+          "footernavHome",
+          "footernavProceso",
+          "footernavEnfoque",
+          "footernavPrecios",
+          "footernavPreguntas"
+        ],
+        "ariaLabel": "Rutas principales"
+      }
+    },
+    {
+      "id": "footerNavTitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Rutas principales",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "footernavHome",
+      "type": "link",
+      "config": {
+        "href": "/",
+        "text": "Inicio",
+        "ariaLabel": "Inicio",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footernavProceso",
+      "type": "link",
+      "config": {
+        "href": "/#proceso",
+        "text": "Proceso",
+        "ariaLabel": "Proceso",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footernavEnfoque",
+      "type": "link",
+      "config": {
+        "href": "/#enfoque",
+        "text": "Enfoque",
+        "ariaLabel": "Enfoque",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footernavPrecios",
+      "type": "link",
+      "config": {
+        "href": "/#precios",
+        "text": "Precios",
+        "ariaLabel": "Precios",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footernavPreguntas",
+      "type": "link",
+      "config": {
+        "href": "/#preguntas",
+        "text": "Preguntas",
+        "ariaLabel": "Preguntas",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerLegalLinks",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px",
+        "components": [
+          "footerLegalTitle",
+          "footerPrivacy",
+          "footerTerms"
+        ],
+        "ariaLabel": "Legal"
+      }
+    },
+    {
+      "id": "footerLegalTitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Legal",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "footerPrivacy",
+      "type": "link",
+      "config": {
+        "href": "/privacidad",
+        "text": "Aviso de privacidad",
+        "ariaLabel": "Aviso de privacidad",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerTerms",
+      "type": "link",
+      "config": {
+        "href": "/terminos",
+        "text": "Terminos y condiciones",
+        "ariaLabel": "Terminos y condiciones",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    }
+  ]
+}

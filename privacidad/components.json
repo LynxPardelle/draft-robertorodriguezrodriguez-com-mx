@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "pageId": "privacidad",
+  "components": [
+    {
+      "id": "privacidadPage",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "classes": "ank-display-flex ank-flexDirection-column ank-bg-bgColor ank-color-textColor",
+        "components": [
+          "privacidadHero",
+          "privacidadContent"
+        ],
+        "styles": {
+          "fontFamily": "Aptos, \"Segoe UI\", sans-serif"
+        },
+        "id": "main-content",
+        "role": "main",
+        "tabindex": -1
+      }
+    },
+    {
+      "id": "privacidadHero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-56px ank-color-textColor ank-bg-secondaryBgColor",
+        "components": [
+          "privacidadHeroInner"
+        ],
+        "styles": {
+          "paddingBlock": "64px"
+        },
+        "id": "home"
+      }
+    },
+    {
+      "id": "privacidadHeroInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-900px ank-display-flex ank-flexDirection-column ank-gap-14px",
+        "components": [
+          "privacidadEyebrow",
+          "privacidadTitle",
+          "privacidadLead"
+        ]
+      }
+    },
+    {
+      "id": "privacidadEyebrow",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Roberto Rodriguez Rodriguez",
+        "classes": "ank-m-0 ank-color-linkColor ank-fontSize-0_82rem ank-fontWeight-900 ank-textTransform-uppercase ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "privacidadTitle",
+      "type": "text",
+      "config": {
+        "tag": "h1",
+        "text": "Aviso de privacidad",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_1rem ank-fontSize-md-3_2rem ank-lineHeight-1_05 ank-fontWeight-800",
+        "styles": {
+          "fontFamily": "Georgia, \"Times New Roman\", serif"
+        }
+      }
+    },
+    {
+      "id": "privacidadLead",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Informacion sobre el uso de datos en el sitio de Roberto Rodriguez Rodriguez.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "privacidadContent",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-56px ank-color-textColor ank-bg-bgColor",
+        "components": [
+          "privacidadContentInner"
+        ],
+        "id": "contenido"
+      }
+    },
+    {
+      "id": "privacidadContentInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-900px ank-display-flex ank-flexDirection-column ank-gap-16px",
+        "components": [
+          "privacidadBlock1",
+          "privacidadBlock2",
+          "privacidadBlock3"
+        ]
+      }
+    },
+    {
+      "id": "privacidadBlock1",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "privacidadBlock1Title",
+          "privacidadBlock1Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "privacidadBlock1Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Datos de contacto",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
+      }
+    },
+    {
+      "id": "privacidadBlock1Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Los datos de contacto publicados en este sitio deben corresponder a informacion autorizada para recibir solicitudes de consulta.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "privacidadBlock2",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "privacidadBlock2Title",
+          "privacidadBlock2Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "privacidadBlock2Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Uso de informacion",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
+      }
+    },
+    {
+      "id": "privacidadBlock2Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "La informacion enviada por canales de contacto se usara para responder solicitudes de consulta, dar seguimiento a disponibilidad y mantener comunicacion relacionada con la atencion solicitada.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "privacidadBlock3",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "privacidadBlock3Title",
+          "privacidadBlock3Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "privacidadBlock3Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Confidencialidad",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
+      }
+    },
+    {
+      "id": "privacidadBlock3Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "La consulta psicologica se presenta como un espacio profesional, privado y respetuoso. La informacion de contacto y seguimiento se maneja con criterios de confidencialidad y uso limitado a la atencion solicitada.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    }
+  ]
+}

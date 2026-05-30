@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "pageId": "allPages",
+  "lang": "es",
+  "dictionary": {
+    "nav": {
+      "home": "Inicio",
+      "process": "Proceso",
+      "approach": "Enfoque",
+      "prices": "Precios",
+      "questions": "Preguntas"
+    },
+    "footer": {
+      "privacyLabel": "Aviso de privacidad",
+      "termsLabel": "Terminos y condiciones"
+    }
+  }
+}
