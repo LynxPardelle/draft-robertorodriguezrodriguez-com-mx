@@ -93,6 +93,15 @@
       "version": "1.0.0",
       "description": "Terapia psicologica online en Mexico con atencion profesional, confidencial y humana."
     },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        }
+      ]
+    },
     "icons": {
       "themeColor": "#315546"
     },

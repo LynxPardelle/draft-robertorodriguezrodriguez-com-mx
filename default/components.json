@@ -731,7 +731,7 @@
           "profileCopy"
         ],
         "styles": {
-          "gridTemplateColumns": "minmax(min(100%, 260px), 360px) 1fr"
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 300px), 1fr))"
         }
       }
     },
