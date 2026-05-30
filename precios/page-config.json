@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "pageId": "precios",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "preciosPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-2-local-draft",
+    "routePurpose": "precios"
+  },
+  "seo": {
+    "title": {
+      "es": "Precios de consulta psicologica online | Roberto Rodriguez"
+    },
+    "description": {
+      "es": "Consulta los precios de terapia psicologica online con Roberto Rodriguez: consulta online y consulta de especialidad/autismo."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Precios de consulta psicologica online | Roberto Rodriguez"
+      },
+      "description": {
+        "es": "Consulta los precios de terapia psicologica online con Roberto Rodriguez: consulta online y consulta de especialidad/autismo."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/precios",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Precios de consulta psicologica online | Roberto Rodriguez"
+      },
+      "description": {
+        "es": "Consulta los precios de terapia psicologica online con Roberto Rodriguez: consulta online y consulta de especialidad/autismo."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/precios",
+    "keywords": {
+      "es": [
+        "terapia psicologica online",
+        "psicologo online Mexico",
+        "consulta psicologica online",
+        "Roberto Rodriguez Rodriguez"
+      ]
+    },
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Precios de consulta psicologica online | Roberto Rodriguez",
+        "description": "Consulta los precios de terapia psicologica online con Roberto Rodriguez: consulta online y consulta de especialidad/autismo.",
+        "url": "https://robertorodriguezrodriguez.com.mx/precios",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido",
+      "contacto"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

@@ -19,6 +19,36 @@
       "label": "Inicio"
     },
     {
+      "path": "/terapia-psicologica-online",
+      "pageId": "terapia-psicologica-online",
+      "label": "Terapia psicologica online"
+    },
+    {
+      "path": "/enfoque-terapeutico",
+      "pageId": "enfoque-terapeutico",
+      "label": "Enfoque terapeutico"
+    },
+    {
+      "path": "/sobre-roberto",
+      "pageId": "sobre-roberto",
+      "label": "Sobre Roberto"
+    },
+    {
+      "path": "/precios",
+      "pageId": "precios",
+      "label": "Precios"
+    },
+    {
+      "path": "/preguntas-frecuentes",
+      "pageId": "preguntas-frecuentes",
+      "label": "Preguntas frecuentes"
+    },
+    {
+      "path": "/contacto",
+      "pageId": "contacto",
+      "label": "Contacto"
+    },
+    {
       "path": "/privacidad",
       "pageId": "privacidad",
       "label": "Aviso de privacidad"
@@ -133,9 +163,11 @@
           "terapia psicologica en Mexico",
           "psicologo online Mexico",
           "consulta psicologica online",
+          "psicologo clinico online",
           "terapia para ansiedad",
           "terapia para estres",
-          "psicologo clinico online"
+          "enfoque psicodinamico",
+          "terapia cognitivo conductual"
         ]
       },
       "robots": "index,follow,max-image-preview:large"

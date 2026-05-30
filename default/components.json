@@ -36,8 +36,9 @@
           "heroInner"
         ],
         "styles": {
-          "paddingBlock": "72px 56px",
-          "background": "linear-gradient(135deg, rgba(250,247,239,0.96), rgba(237,244,240,0.86)), url(\"https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/default/section-images/calm-online-therapy-workspace.jpg\")",
+          "paddingBlock": "72px 64px",
+          "minHeight": "560px",
+          "background": "linear-gradient(rgba(250,247,239,0.78), rgba(237,244,240,0.94)), radial-gradient(circle at 18% 24%, #dce8d7, transparent 28%), radial-gradient(circle at 82% 20%, #c8d9e4, transparent 30%), linear-gradient(145deg, #faf7ef 0%, #edf4f0 62%, #f7efe9 100%)",
           "backgroundSize": "cover",
           "backgroundPosition": "center"
         },
@@ -49,13 +50,17 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gap-32px ank-alignItems-center",
+        "classes": "ank-width-100per ank-maxWidth-900px ank-display-grid ank-gap-16px ank-justifyItems-center ank-textAlign-center",
         "components": [
-          "heroCopy",
-          "heroVisual"
+          "heroPortraitFrame",
+          "heroKicker",
+          "heroTitle",
+          "heroLead",
+          "heroActions",
+          "heroTrustChips"
         ],
         "styles": {
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 430px), 1fr))"
+          "margin": "0 auto"
         }
       }
     },
@@ -91,8 +96,10 @@
         "text": "Acompanamiento psicologico claro, confidencial y humano",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_1rem ank-fontSize-md-3_2rem ank-lineHeight-1_05 ank-fontWeight-800",
         "styles": {
-          "maxWidth": "780px",
-          "fontFamily": "Georgia, \"Times New Roman\", serif"
+          "maxWidth": "820px",
+          "fontFamily": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "clamp(2.25rem, 5.3vw, 4.45rem)",
+          "lineHeight": "0.99"
         }
       }
     },
@@ -102,7 +109,10 @@
       "config": {
         "tag": "p",
         "text": "Un espacio profesional para trabajar ansiedad, estres, autoestima, relaciones y procesos emocionales desde una atencion cercana, respetuosa y sin juicio.",
-        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6 ank-maxWidth-48rem"
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6 ank-maxWidth-48rem",
+        "styles": {
+          "maxWidth": "640px"
+        }
       }
     },
     {
@@ -110,7 +120,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-12px ank-alignItems-center",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-12px ank-alignItems-center ank-justifyContent-center",
         "components": [
           "heroPrimary",
           "heroSecondary"
@@ -124,10 +134,11 @@
         "href": "#contacto",
         "text": "Agendar cita",
         "ariaLabel": "Agendar cita",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
         "target": "_self",
         "styles": {
-          "color": "var(--ank-onSuccessColor)"
+          "color": "var(--ank-onSuccessColor)",
+          "borderRadius": "999px"
         }
       }
     },
@@ -138,8 +149,11 @@
         "href": "#enfoque",
         "text": "Conocer el enfoque",
         "ariaLabel": "Conocer el enfoque",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
-        "target": "_self"
+        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "999px"
+        }
       }
     },
     {
@@ -147,12 +161,16 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-8px",
+        "classes": "ank-width-100per ank-display-grid ank-gap-10px ank-marginTop-14px",
         "components": [
           "chipClinical",
           "chipApproach",
           "chipAudience"
-        ]
+        ],
+        "styles": {
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 190px), 1fr))",
+          "maxWidth": "760px"
+        }
       }
     },
     {
@@ -161,7 +179,7 @@
       "config": {
         "tag": "span",
         "text": "Psicologo clinico con cedula vigente",
-        "classes": "ank-display-inline-flex ank-borderRadius-8px ank-paddingInline-10px ank-paddingBlock-6px ank-bg-secondaryBgColor ank-color-titleColor ank-fontSize-0_86rem ank-fontWeight-900",
+        "classes": "ank-bg-bgColorOPA__0_58 ank-border-1px__solid__secondaryBgColor ank-padding-14px ank-color-secondaryTextColor ank-fontSize-0_86rem ank-fontWeight-800 ank-textAlign-center",
         "styles": {
           "borderRadius": "6px"
         }
@@ -173,7 +191,7 @@
       "config": {
         "tag": "span",
         "text": "Psicodinamico + TCC",
-        "classes": "ank-display-inline-flex ank-borderRadius-8px ank-paddingInline-10px ank-paddingBlock-6px ank-bg-secondaryBgColor ank-color-titleColor ank-fontSize-0_86rem ank-fontWeight-900",
+        "classes": "ank-bg-bgColorOPA__0_58 ank-border-1px__solid__secondaryBgColor ank-padding-14px ank-color-secondaryTextColor ank-fontSize-0_86rem ank-fontWeight-800 ank-textAlign-center",
         "styles": {
           "borderRadius": "6px"
         }
@@ -185,7 +203,7 @@
       "config": {
         "tag": "span",
         "text": "Adultos y adolescentes",
-        "classes": "ank-display-inline-flex ank-borderRadius-8px ank-paddingInline-10px ank-paddingBlock-6px ank-bg-secondaryBgColor ank-color-titleColor ank-fontSize-0_86rem ank-fontWeight-900",
+        "classes": "ank-bg-bgColorOPA__0_58 ank-border-1px__solid__secondaryBgColor ank-padding-14px ank-color-secondaryTextColor ank-fontSize-0_86rem ank-fontWeight-800 ank-textAlign-center",
         "styles": {
           "borderRadius": "6px"
         }
@@ -208,14 +226,22 @@
       "type": "container",
       "config": {
         "tag": "figure",
-        "classes": "ank-m-0 ank-overflow-hidden ank-bg-secondaryBgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px",
-        "components": [
-          "heroPortrait"
-        ],
+        "classes": "ank-m-0 ank-overflow-hidden ank-bg-bgColor",
+        "components": [],
         "styles": {
-          "borderRadius": "8px",
-          "boxShadow": "0 24px 60px rgba(28,45,40,0.16)"
-        }
+          "width": "144px",
+          "height": "144px",
+          "borderRadius": "999px",
+          "border": "7px solid rgba(255,255,255,0.76)",
+          "boxShadow": "0 16px 40px rgba(33,56,47,0.2)",
+          "background": "linear-gradient(160deg, rgba(255,255,255,0.16), rgba(45,68,59,0.14)), url(\"https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/profile-images/roberto-profile-portrait.jpeg\")",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center top",
+          "justifySelf": "center",
+          "alignSelf": "center"
+        },
+        "ariaLabel": "Retrato de Roberto Rodriguez Rodriguez",
+        "role": "img"
       }
     },
     {
@@ -231,7 +257,13 @@
         "height": 400,
         "decoding": "async",
         "loading": "eager",
-        "fetchPriority": "high"
+        "fetchPriority": "high",
+        "styles": {
+          "width": "144px",
+          "height": "144px",
+          "borderRadius": "999px",
+          "objectFit": "cover"
+        }
       }
     },
     {
@@ -731,7 +763,7 @@
           "profileCopy"
         ],
         "styles": {
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 300px), 1fr))"
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))"
         }
       }
     },
@@ -740,13 +772,22 @@
       "type": "container",
       "config": {
         "tag": "figure",
-        "classes": "ank-m-0 ank-overflow-hidden ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-bg-secondaryBgColor",
-        "components": [
-          "profilePortrait"
-        ],
+        "classes": "ank-m-0 ank-overflow-hidden ank-border-1px__solid__secondaryBgColor ank-bg-secondaryBgColor",
+        "components": [],
         "styles": {
-          "borderRadius": "8px"
-        }
+          "width": "144px",
+          "height": "144px",
+          "borderRadius": "999px",
+          "border": "6px solid rgba(255,255,255,0.82)",
+          "boxShadow": "0 16px 36px rgba(33,56,47,0.16)",
+          "background": "linear-gradient(160deg, rgba(255,255,255,0.16), rgba(45,68,59,0.14)), url(\"https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/profile-images/roberto-profile-portrait.jpeg\")",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center top",
+          "justifySelf": "center",
+          "alignSelf": "center"
+        },
+        "ariaLabel": "Retrato de Roberto Rodriguez Rodriguez",
+        "role": "img"
       }
     },
     {
@@ -757,11 +798,17 @@
         "tag": "image",
         "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/profile-images/roberto-profile-portrait.jpeg",
         "alt": "Roberto Rodriguez Rodriguez, psicologo clinico",
-        "classes": "ank-width-100per ank-display-block ank-objectFit-cover",
+        "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-cover",
         "width": 320,
         "height": 400,
         "decoding": "async",
-        "loading": "lazy"
+        "loading": "lazy",
+        "styles": {
+          "width": "156px",
+          "height": "156px",
+          "borderRadius": "999px",
+          "objectFit": "cover"
+        }
       }
     },
     {

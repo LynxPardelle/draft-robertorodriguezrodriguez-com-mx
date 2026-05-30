@@ -61,8 +61,9 @@
         "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-8px ank-alignItems-center",
         "components": [
           "navHome",
-          "navProceso",
+          "navTerapiaOnline",
           "navEnfoque",
+          "navSobre",
           "navPrecios",
           "navPreguntas"
         ],
@@ -84,24 +85,10 @@
       }
     },
     {
-      "id": "navProceso",
-      "type": "link",
-      "config": {
-        "href": "/#proceso",
-        "text": "Proceso",
-        "ariaLabel": "Proceso",
-        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self",
-        "styles": {
-          "borderRadius": "6px"
-        }
-      }
-    },
-    {
       "id": "navEnfoque",
       "type": "link",
       "config": {
-        "href": "/#enfoque",
+        "href": "/enfoque-terapeutico",
         "text": "Enfoque",
         "ariaLabel": "Enfoque",
         "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
@@ -115,7 +102,7 @@
       "id": "navPrecios",
       "type": "link",
       "config": {
-        "href": "/#precios",
+        "href": "/precios",
         "text": "Precios",
         "ariaLabel": "Precios",
         "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
@@ -129,7 +116,7 @@
       "id": "navPreguntas",
       "type": "link",
       "config": {
-        "href": "/#preguntas",
+        "href": "/preguntas-frecuentes",
         "text": "Preguntas",
         "ariaLabel": "Preguntas",
         "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
@@ -143,9 +130,9 @@
       "id": "headerCtaLink",
       "type": "link",
       "config": {
-        "href": "/#contacto",
-        "text": "Agendar cita",
-        "ariaLabel": "Agendar cita",
+        "href": "/contacto",
+        "text": "Contacto",
+        "ariaLabel": "Contacto",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
         "target": "_self",
         "styles": {
@@ -184,7 +171,8 @@
           "footerInner"
         ],
         "styles": {
-          "borderTop": "1px solid var(--ank-secondaryBgColor)"
+          "borderTop": "1px solid var(--ank-secondaryBgColor)",
+          "flexShrink": "0"
         },
         "id": "site-footer"
       }
@@ -253,11 +241,12 @@
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px",
         "components": [
           "footerNavTitle",
-          "footernavHome",
-          "footernavProceso",
-          "footernavEnfoque",
-          "footernavPrecios",
-          "footernavPreguntas"
+          "footerNavHome",
+          "footerNavTerapiaOnline",
+          "footerNavEnfoque",
+          "footerNavSobre",
+          "footerNavPrecios",
+          "footerNavPreguntas"
         ],
         "ariaLabel": "Rutas principales"
       }
@@ -269,61 +258,6 @@
         "tag": "p",
         "text": "Rutas principales",
         "classes": "ank-m-0 ank-color-titleColor ank-fontWeight-900"
-      }
-    },
-    {
-      "id": "footernavHome",
-      "type": "link",
-      "config": {
-        "href": "/",
-        "text": "Inicio",
-        "ariaLabel": "Inicio",
-        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self"
-      }
-    },
-    {
-      "id": "footernavProceso",
-      "type": "link",
-      "config": {
-        "href": "/#proceso",
-        "text": "Proceso",
-        "ariaLabel": "Proceso",
-        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self"
-      }
-    },
-    {
-      "id": "footernavEnfoque",
-      "type": "link",
-      "config": {
-        "href": "/#enfoque",
-        "text": "Enfoque",
-        "ariaLabel": "Enfoque",
-        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self"
-      }
-    },
-    {
-      "id": "footernavPrecios",
-      "type": "link",
-      "config": {
-        "href": "/#precios",
-        "text": "Precios",
-        "ariaLabel": "Precios",
-        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self"
-      }
-    },
-    {
-      "id": "footernavPreguntas",
-      "type": "link",
-      "config": {
-        "href": "/#preguntas",
-        "text": "Preguntas",
-        "ariaLabel": "Preguntas",
-        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self"
       }
     },
     {
@@ -367,6 +301,100 @@
         "href": "/terminos",
         "text": "Terminos y condiciones",
         "ariaLabel": "Terminos y condiciones",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerNavHome",
+      "type": "link",
+      "config": {
+        "href": "/",
+        "text": "Inicio",
+        "ariaLabel": "Inicio",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "navTerapiaOnline",
+      "type": "link",
+      "config": {
+        "href": "/terapia-psicologica-online",
+        "text": "Terapia online",
+        "ariaLabel": "Terapia online",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "footerNavTerapiaOnline",
+      "type": "link",
+      "config": {
+        "href": "/terapia-psicologica-online",
+        "text": "Terapia online",
+        "ariaLabel": "Terapia online",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerNavEnfoque",
+      "type": "link",
+      "config": {
+        "href": "/enfoque-terapeutico",
+        "text": "Enfoque",
+        "ariaLabel": "Enfoque",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "navSobre",
+      "type": "link",
+      "config": {
+        "href": "/sobre-roberto",
+        "text": "Sobre Roberto",
+        "ariaLabel": "Sobre Roberto",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "footerNavSobre",
+      "type": "link",
+      "config": {
+        "href": "/sobre-roberto",
+        "text": "Sobre Roberto",
+        "ariaLabel": "Sobre Roberto",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerNavPrecios",
+      "type": "link",
+      "config": {
+        "href": "/precios",
+        "text": "Precios",
+        "ariaLabel": "Precios",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerNavPreguntas",
+      "type": "link",
+      "config": {
+        "href": "/preguntas-frecuentes",
+        "text": "Preguntas",
+        "ariaLabel": "Preguntas",
         "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
         "target": "_self"
       }

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "pageId": "preguntas-frecuentes",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "preguntas-frecuentesPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-2-local-draft",
+    "routePurpose": "preguntas-frecuentes"
+  },
+  "seo": {
+    "title": {
+      "es": "Preguntas frecuentes sobre terapia online | Roberto Rodriguez"
+    },
+    "description": {
+      "es": "Respuestas sobre primera sesion, confidencialidad, terapia online, precios, emergencias y alcance del servicio psicologico."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Preguntas frecuentes sobre terapia online | Roberto Rodriguez"
+      },
+      "description": {
+        "es": "Respuestas sobre primera sesion, confidencialidad, terapia online, precios, emergencias y alcance del servicio psicologico."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/preguntas-frecuentes",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Preguntas frecuentes sobre terapia online | Roberto Rodriguez"
+      },
+      "description": {
+        "es": "Respuestas sobre primera sesion, confidencialidad, terapia online, precios, emergencias y alcance del servicio psicologico."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/preguntas-frecuentes",
+    "keywords": {
+      "es": [
+        "terapia psicologica online",
+        "psicologo online Mexico",
+        "consulta psicologica online",
+        "Roberto Rodriguez Rodriguez"
+      ]
+    },
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Preguntas frecuentes sobre terapia online | Roberto Rodriguez",
+        "description": "Respuestas sobre primera sesion, confidencialidad, terapia online, precios, emergencias y alcance del servicio psicologico.",
+        "url": "https://robertorodriguezrodriguez.com.mx/preguntas-frecuentes",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido",
+      "contacto"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}
