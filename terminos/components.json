@@ -14,7 +14,8 @@
           "terminosContent"
         ],
         "styles": {
-          "fontFamily": "Aptos, \"Segoe UI\", sans-serif"
+          "fontFamily": "Aptos, \"Segoe UI\", sans-serif",
+          "minHeight": "calc(100vh - 260px)"
         },
         "id": "main-content",
         "role": "main",

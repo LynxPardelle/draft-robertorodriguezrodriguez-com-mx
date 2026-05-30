@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "pageId": "terapia-psicologica-online",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "terapia-psicologica-onlinePage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-2-local-draft",
+    "routePurpose": "terapia-psicologica-online"
+  },
+  "seo": {
+    "title": {
+      "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
+    },
+    "description": {
+      "es": "Consulta psicologica online en Mexico con acompaniamiento profesional, confidencial y humano para trabajar ansiedad, estres, autoestima y relaciones."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
+      },
+      "description": {
+        "es": "Consulta psicologica online en Mexico con acompaniamiento profesional, confidencial y humano para trabajar ansiedad, estres, autoestima y relaciones."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/terapia-psicologica-online",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
+      },
+      "description": {
+        "es": "Consulta psicologica online en Mexico con acompaniamiento profesional, confidencial y humano para trabajar ansiedad, estres, autoestima y relaciones."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/terapia-psicologica-online",
+    "keywords": {
+      "es": [
+        "terapia psicologica online",
+        "psicologo online Mexico",
+        "consulta psicologica online",
+        "Roberto Rodriguez Rodriguez"
+      ]
+    },
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Terapia psicologica online en Mexico | Roberto Rodriguez",
+        "description": "Consulta psicologica online en Mexico con acompaniamiento profesional, confidencial y humano para trabajar ansiedad, estres, autoestima y relaciones.",
+        "url": "https://robertorodriguezrodriguez.com.mx/terapia-psicologica-online",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido",
+      "contacto"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

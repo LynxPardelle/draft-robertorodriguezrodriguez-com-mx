@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "pageId": "contacto",
+  "components": [
+    {
+      "id": "contactoPage",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "classes": "ank-display-flex ank-flexDirection-column ank-bg-bgColor ank-color-textColor",
+        "components": [
+          "contactoHero",
+          "contactoContent",
+          "contactoCta"
+        ],
+        "styles": {
+          "fontFamily": "Aptos, \"Segoe UI\", sans-serif",
+          "minHeight": "calc(100vh - 356px)"
+        },
+        "id": "main-content",
+        "role": "main",
+        "tabindex": -1
+      }
+    },
+    {
+      "id": "contactoHero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-56px ank-color-textColor ank-bg-secondaryBgColor",
+        "components": [
+          "contactoHeroInner"
+        ],
+        "styles": {
+          "paddingBlock": "64px"
+        },
+        "id": "home"
+      }
+    },
+    {
+      "id": "contactoHeroInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-grid ank-gap-16px ank-justifyItems-center ank-textAlign-center",
+        "components": [
+          "contactoEyebrow",
+          "contactoTitle",
+          "contactoLead"
+        ],
+        "styles": {
+          "maxWidth": "900px"
+        }
+      }
+    },
+    {
+      "id": "contactoEyebrow",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Contacto",
+        "classes": "ank-m-0 ank-color-linkColor ank-fontSize-0_82rem ank-fontWeight-900 ank-textTransform-uppercase ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "contactoTitle",
+      "type": "text",
+      "config": {
+        "tag": "h1",
+        "text": "Agenda una primera consulta",
+        "classes": "ank-m-0 ank-color-titleColor ank-lineHeight-1_05 ank-fontWeight-800",
+        "styles": {
+          "maxWidth": "840px",
+          "fontFamily": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "clamp(2.05rem, 4vw, 3.7rem)"
+        }
+      }
+    },
+    {
+      "id": "contactoLead",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Antes de publicar, el telefono, correo, mensajeria o cualquier canal de contacto debe confirmarse como publico y autorizado.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6",
+        "styles": {
+          "maxWidth": "760px"
+        }
+      }
+    },
+    {
+      "id": "contactoContent",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-56px ank-color-textColor ank-bg-bgColor",
+        "components": [
+          "contactoContentInner"
+        ],
+        "id": "contenido"
+      }
+    },
+    {
+      "id": "contactoContentInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-grid ank-gap-16px",
+        "components": [
+          "contactoGrid"
+        ],
+        "styles": {
+          "maxWidth": "1040px"
+        }
+      }
+    },
+    {
+      "id": "contactoGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gap-16px",
+        "components": [
+          "contactoBlock1",
+          "contactoBlock2",
+          "contactoBlock3"
+        ],
+        "styles": {
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 280px), 1fr))"
+        }
+      }
+    },
+    {
+      "id": "contactoBlock1",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "contactoBlock1Title",
+          "contactoBlock1Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "contactoBlock1Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Que confirmar antes de agendar",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "contactoBlock1Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Disponibilidad, modalidad de llamada o videollamada, costo de la consulta y condiciones de privacidad.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "contactoBlock2",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "contactoBlock2Title",
+          "contactoBlock2Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "contactoBlock2Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Datos de contacto",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "contactoBlock2Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El sitio no publica telefono, correo ni mensajeria hasta contar con confirmacion explicita de que son datos publicos autorizados.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "contactoBlock3",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "contactoBlock3Title",
+          "contactoBlock3Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "contactoBlock3Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Emergencias",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "contactoBlock3Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Este sitio no atiende crisis ni emergencias. Si existe riesgo inmediato, busca apoyo de servicios de emergencia o lineas locales de atencion urgente.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "contactoCta",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-56px ank-bg-secondaryBgColor ank-color-textColor",
+        "components": [
+          "contactoCtaInner"
+        ],
+        "id": "contacto"
+      }
+    },
+    {
+      "id": "contactoCtaInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-grid ank-gap-16px ank-justifyItems-center ank-textAlign-center",
+        "components": [
+          "contactoCtaTitle",
+          "contactoCtaBody",
+          "contactoCtaLink"
+        ],
+        "styles": {
+          "maxWidth": "780px"
+        }
+      }
+    },
+    {
+      "id": "contactoCtaTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Listo para activar el canal autorizado",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontWeight-900 ank-lineHeight-1_1"
+      }
+    },
+    {
+      "id": "contactoCtaBody",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Cuando se confirme el contacto publico, esta pagina puede convertirse en la ruta principal de conversion.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_6",
+        "styles": {
+          "maxWidth": "680px"
+        }
+      }
+    },
+    {
+      "id": "contactoCtaLink",
+      "type": "link",
+      "config": {
+        "href": "/contacto",
+        "text": "Ir a contacto",
+        "ariaLabel": "Ir a contacto",
+        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "999px",
+          "color": "var(--ank-onSuccessColor)"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "pageId": "enfoque-terapeutico",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "enfoque-terapeuticoPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-2-local-draft",
+    "routePurpose": "enfoque-terapeutico"
+  },
+  "seo": {
+    "title": {
+      "es": "Enfoque terapeutico psicodinamico y TCC | Roberto Rodriguez"
+    },
+    "description": {
+      "es": "Conoce el enfoque terapeutico de Roberto Rodriguez: mirada psicodinamica, herramientas TCC y acompaniamiento clinico sin promesas de cura."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Enfoque terapeutico psicodinamico y TCC | Roberto Rodriguez"
+      },
+      "description": {
+        "es": "Conoce el enfoque terapeutico de Roberto Rodriguez: mirada psicodinamica, herramientas TCC y acompaniamiento clinico sin promesas de cura."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/enfoque-terapeutico",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Enfoque terapeutico psicodinamico y TCC | Roberto Rodriguez"
+      },
+      "description": {
+        "es": "Conoce el enfoque terapeutico de Roberto Rodriguez: mirada psicodinamica, herramientas TCC y acompaniamiento clinico sin promesas de cura."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/enfoque-terapeutico",
+    "keywords": {
+      "es": [
+        "terapia psicologica online",
+        "psicologo online Mexico",
+        "consulta psicologica online",
+        "Roberto Rodriguez Rodriguez"
+      ]
+    },
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Enfoque terapeutico psicodinamico y TCC | Roberto Rodriguez",
+        "description": "Conoce el enfoque terapeutico de Roberto Rodriguez: mirada psicodinamica, herramientas TCC y acompaniamiento clinico sin promesas de cura.",
+        "url": "https://robertorodriguezrodriguez.com.mx/enfoque-terapeutico",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido",
+      "contacto"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

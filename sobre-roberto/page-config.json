@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "pageId": "sobre-roberto",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "sobre-robertoPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-2-local-draft",
+    "routePurpose": "sobre-roberto"
+  },
+  "seo": {
+    "title": {
+      "es": "Roberto Rodriguez Rodriguez | Psicologo clinico online"
+    },
+    "description": {
+      "es": "Conoce el perfil profesional de Roberto Rodriguez Rodriguez, psicologo clinico con atencion online en Mexico."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Roberto Rodriguez Rodriguez | Psicologo clinico online"
+      },
+      "description": {
+        "es": "Conoce el perfil profesional de Roberto Rodriguez Rodriguez, psicologo clinico con atencion online en Mexico."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/sobre-roberto",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Roberto Rodriguez Rodriguez | Psicologo clinico online"
+      },
+      "description": {
+        "es": "Conoce el perfil profesional de Roberto Rodriguez Rodriguez, psicologo clinico con atencion online en Mexico."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/sobre-roberto",
+    "keywords": {
+      "es": [
+        "terapia psicologica online",
+        "psicologo online Mexico",
+        "consulta psicologica online",
+        "Roberto Rodriguez Rodriguez"
+      ]
+    },
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Roberto Rodriguez Rodriguez | Psicologo clinico online",
+        "description": "Conoce el perfil profesional de Roberto Rodriguez Rodriguez, psicologo clinico con atencion online en Mexico.",
+        "url": "https://robertorodriguezrodriguez.com.mx/sobre-roberto",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido",
+      "contacto"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

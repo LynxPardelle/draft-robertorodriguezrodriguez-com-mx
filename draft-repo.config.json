@@ -1,6 +1,6 @@
 {
   "domain": "robertorodriguezrodriguez.com.mx",
-  "authoringEndpoint": "https://api.zoolandingpage.com.mx/config-authoring",
+  "authoringEndpoint": "https://o4upx3fsz3d3dwfwz4lbnefjze0eetyn.lambda-url.us-east-1.on.aws/",
   "awsRegion": "us-east-1",
   "branches": {
     "dev": {
