@@ -84,7 +84,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Terapia psicologica online en Mexico",
+        "text": "Terapia psicológica online en México",
         "classes": "ank-m-0 ank-color-linkColor ank-fontSize-0_82rem ank-fontWeight-900 ank-textTransform-uppercase ank-lineHeight-1_2"
       }
     },
@@ -93,7 +93,7 @@
       "type": "text",
       "config": {
         "tag": "h1",
-        "text": "Acompanamiento psicologico claro, confidencial y humano",
+        "text": "Acompañamiento psicológico claro, confidencial y humano",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_1rem ank-fontSize-md-3_2rem ank-lineHeight-1_05 ank-fontWeight-800",
         "styles": {
           "maxWidth": "820px",
@@ -108,7 +108,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Un espacio profesional para trabajar ansiedad, estres, autoestima, relaciones y procesos emocionales desde una atencion cercana, respetuosa y sin juicio.",
+        "text": "Un espacio profesional para trabajar ansiedad, estrés, autoestima, relaciones y procesos emocionales desde una atención cercana, respetuosa y con apertura.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6 ank-maxWidth-48rem",
         "styles": {
           "maxWidth": "640px"
@@ -131,7 +131,7 @@
       "id": "heroPrimary",
       "type": "link",
       "config": {
-        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
@@ -179,7 +179,7 @@
       "type": "text",
       "config": {
         "tag": "span",
-        "text": "Psicologo clinico con cedula profesional vigente",
+        "text": "Psicólogo clínico con cédula profesional vigente",
         "classes": "ank-bg-bgColorOPA__0_58 ank-border-1px__solid__secondaryBgColor ank-padding-14px ank-color-secondaryTextColor ank-fontSize-0_86rem ank-fontWeight-800 ank-textAlign-center",
         "styles": {
           "borderRadius": "6px",
@@ -196,7 +196,7 @@
       "type": "text",
       "config": {
         "tag": "span",
-        "text": "Psicodinamico + TCC",
+        "text": "Psicodinámico + TCC",
         "classes": "ank-bg-bgColorOPA__0_58 ank-border-1px__solid__secondaryBgColor ank-padding-14px ank-color-secondaryTextColor ank-fontSize-0_86rem ank-fontWeight-800 ank-textAlign-center",
         "styles": {
           "borderRadius": "6px",
@@ -256,7 +256,7 @@
           "justifySelf": "center",
           "alignSelf": "center"
         },
-        "ariaLabel": "Retrato de Roberto Rodriguez Rodriguez",
+        "ariaLabel": "Retrato de Roberto Rodríguez Rodríguez",
         "role": "img"
       }
     },
@@ -267,7 +267,7 @@
         "id": "heroPortrait",
         "tag": "image",
         "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/profile-images/roberto-profile-portrait.jpeg",
-        "alt": "Retrato de Roberto Rodriguez Rodriguez",
+        "alt": "Retrato de Roberto Rodríguez Rodríguez",
         "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-cover",
         "width": 320,
         "height": 400,
@@ -287,7 +287,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Atencion online por llamada o videollamada desde un espacio privado y profesional.",
+        "text": "Atención online por llamada o videollamada desde un espacio privado y profesional.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5",
         "styles": {
           "padding": "14px 16px",
@@ -364,7 +364,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Si estas viviendo ansiedad, estres, cansancio emocional, dificultades en tus relaciones, duelo o pensamientos que se repiten, la terapia puede ser un espacio para ordenar lo que pasa y empezar a trabajarlo con acompanamiento profesional.",
+        "text": "Si estás viviendo ansiedad, estrés, cansancio emocional, dificultades en tus relaciones, duelo o pensamientos que se repiten, la terapia puede ser un espacio para ordenar lo que pasa y empezar a trabajarlo con acompañamiento profesional.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65",
         "styles": {
           "maxWidth": "790px"
@@ -392,7 +392,7 @@
         "id": "supportImage",
         "tag": "image",
         "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/default/section-images/calm-online-therapy-workspace.jpg",
-        "alt": "Espacio tranquilo para terapia psicologica online",
+        "alt": "Espacio tranquilo para terapia psicológica online",
         "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-cover",
         "width": 1536,
         "height": 1024,
@@ -440,7 +440,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Como iniciar terapia online",
+        "text": "Cómo iniciar terapia online",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_75rem ank-fontSize-md-2_35rem ank-lineHeight-1_12 ank-fontWeight-800",
         "styles": {
           "maxWidth": "760px",
@@ -453,7 +453,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "El inicio se mantiene claro y sin pasos innecesarios para que puedas enfocarte en pedir ayuda y entender como sera el acompanamiento.",
+        "text": "El inicio se mantiene claro y directo para que puedas enfocarte en pedir ayuda y entender cómo será el acompañamiento.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65",
         "styles": {
           "maxWidth": "790px"
@@ -506,7 +506,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Comparte de forma breve que estas buscando acompanamiento y consulta disponibilidad.",
+        "text": "Comparte de forma breve que estás buscando acompañamiento y consulta disponibilidad.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -531,7 +531,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Ten una primera sesion",
+        "text": "Ten una primera sesión",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -540,7 +540,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La primera sesion permite hablar de lo que estas viviendo y aclarar dudas sobre el proceso.",
+        "text": "La primera sesión permite hablar de lo que estás viviendo y aclarar dudas sobre el proceso.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -574,7 +574,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "El acompanamiento se organiza a tu ritmo, con objetivos claros y seguimiento profesional.",
+        "text": "El acompañamiento se organiza a tu ritmo, con objetivos claros y seguimiento profesional.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -609,7 +609,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Enfoque clinico",
+        "text": "Enfoque clínico",
         "classes": "ank-m-0 ank-color-linkColor ank-fontSize-0_82rem ank-fontWeight-900 ank-textTransform-uppercase ank-lineHeight-1_2"
       }
     },
@@ -618,7 +618,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Profundidad psicodinamica + herramientas TCC",
+        "text": "Profundidad psicodinámica + herramientas TCC",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_75rem ank-fontSize-md-2_35rem ank-lineHeight-1_12 ank-fontWeight-800",
         "styles": {
           "maxWidth": "760px",
@@ -631,7 +631,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "El proceso combina comprension de patrones emocionales con herramientas practicas para observar pensamientos, decisiones, limites y formas de relacionarte.",
+        "text": "El proceso combina comprensión de patrones emocionales con herramientas prácticas para observar pensamientos, decisiones, límites y formas de relacionarte.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65",
         "styles": {
           "maxWidth": "790px"
@@ -684,7 +684,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Explorar formas de pensar, sentir y relacionarte que se repiten ayuda a ordenar lo que estas viviendo.",
+        "text": "Explorar formas de pensar, sentir y relacionarte que se repiten ayuda a ordenar lo que estás viviendo.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -709,7 +709,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Herramientas practicas",
+        "text": "Herramientas prácticas",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -718,7 +718,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La TCC suma recursos para observar pensamientos, decisiones, limites y conductas cotidianas.",
+        "text": "La TCC suma recursos para observar pensamientos, decisiones, límites y conductas cotidianas.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -752,7 +752,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "El proceso se sostiene desde una atencion cercana, profesional, confidencial y sin juicio.",
+        "text": "El proceso se sostiene desde una atención cercana, profesional, confidencial y con apertura.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -802,7 +802,7 @@
           "justifySelf": "center",
           "alignSelf": "center"
         },
-        "ariaLabel": "Retrato de Roberto Rodriguez Rodriguez",
+        "ariaLabel": "Retrato de Roberto Rodríguez Rodríguez",
         "role": "img"
       }
     },
@@ -813,7 +813,7 @@
         "id": "profilePortrait",
         "tag": "image",
         "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/profile-images/roberto-profile-portrait.jpeg",
-        "alt": "Roberto Rodriguez Rodriguez, psicologo clinico",
+        "alt": "Roberto Rodríguez Rodríguez, psicólogo clínico",
         "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-cover",
         "width": 320,
         "height": 400,
@@ -855,7 +855,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Roberto Rodriguez Rodriguez",
+        "text": "Roberto Rodríguez Rodríguez",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_75rem ank-fontSize-md-2_35rem ank-lineHeight-1_12 ank-fontWeight-800",
         "styles": {
           "maxWidth": "760px",
@@ -868,7 +868,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Psicologo clinico con cedula profesional vigente. Atencion online para adultos y adolescentes desde 15 anos en un espacio confidencial, profesional y sin juicio.",
+        "text": "Psicólogo clínico con cédula profesional vigente. Atención online para adultos y adolescentes desde 15 años en un espacio confidencial, profesional y con apertura.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65",
         "styles": {
           "maxWidth": "790px"
@@ -880,7 +880,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Pedir ayuda es una decision importante; el proceso cuida claridad, respeto y confidencialidad desde la primera conversacion por WhatsApp.",
+        "text": "Pedir ayuda es una decisión importante; el proceso cuida claridad, respeto y confidencialidad desde la primera conversación por WhatsApp.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65",
         "styles": {
           "padding": "16px",
@@ -945,7 +945,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La informacion de costos se muestra abierta para evitar dudas antes de la primera conversacion.",
+        "text": "La información de costos se muestra abierta para evitar dudas antes de la primera conversación.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65",
         "styles": {
           "maxWidth": "790px"
@@ -1007,7 +1007,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Todas las respuestas quedan visibles para que la informacion sea facil de revisar.",
+        "text": "Todas las respuestas quedan visibles para que la información sea fácil de revisar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65",
         "styles": {
           "maxWidth": "790px"
@@ -1056,7 +1056,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Consulta psicologica online",
+        "text": "Consulta psicológica online",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1074,7 +1074,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta psicologica online por llamada o videollamada. Costo de referencia: $300 MXN por sesion.",
+        "text": "Consulta psicológica online por llamada o videollamada. Costo de referencia: $300 MXN por sesión.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1119,7 +1119,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta de especialidad/autismo. Costo de referencia: $400 MXN por sesion, con objetivos y modalidad acordados al agendar.",
+        "text": "Consulta de especialidad/autismo. Costo de referencia: $400 MXN por sesión, con objetivos y modalidad acordados al agendar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1144,7 +1144,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Como es la primera sesion?",
+        "text": "Cómo es la primera sesión?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1153,7 +1153,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La primera sesion sirve para hablar de lo que estas viviendo, aclarar dudas y definir una forma de trabajo.",
+        "text": "La primera sesión sirve para hablar de lo que estás viviendo, aclarar dudas y definir una forma de trabajo.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1221,7 +1221,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Si. La atencion se realiza por llamada o videollamada para personas en Mexico.",
+        "text": "Sí. La atención se realiza por llamada o videollamada para personas en México.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1246,7 +1246,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Cuanto cuesta una sesion?",
+        "text": "Cuánto cuesta una sesión?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1255,7 +1255,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La consulta psicologica online tiene un costo de $300. La consulta de especialidad/autismo tiene un costo de $400.",
+        "text": "La consulta psicológica online tiene un costo de $300. La consulta de especialidad/autismo tiene un costo de $400.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1289,7 +1289,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Si. Roberto atiende adolescentes desde 15 anos. En menores de edad, el inicio del proceso considera consentimiento, privacidad y condiciones de acompanamiento acordadas antes de iniciar.",
+        "text": "Sí. Roberto atiende adolescentes desde 15 años. En menores de edad, el inicio del proceso considera consentimiento, privacidad y condiciones de acompañamiento acordadas antes de iniciar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1314,7 +1314,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Que pasa si necesito atencion urgente?",
+        "text": "Qué pasa si necesito atención urgente?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1323,7 +1323,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Este servicio no sustituye atencion de emergencia. Si estas en riesgo inmediato o necesitas ayuda urgente, busca apoyo de emergencias o una linea local de atencion urgente.",
+        "text": "Este servicio no sustituye atención de emergencia. Si estás en riesgo inmediato o necesitas ayuda urgente, busca apoyo de emergencias o una línea local de atención urgente.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1383,7 +1383,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Escribe por WhatsApp para consultar disponibilidad de terapia psicologica online por llamada o videollamada.",
+        "text": "Escribe por WhatsApp para consultar disponibilidad de terapia psicológica online por llamada o videollamada.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -1403,7 +1403,7 @@
       "id": "finalPrimary",
       "type": "link",
       "config": {
-        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",

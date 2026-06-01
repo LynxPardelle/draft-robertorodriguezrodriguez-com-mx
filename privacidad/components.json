@@ -55,7 +55,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Roberto Rodriguez Rodriguez",
+        "text": "Roberto Rodríguez Rodríguez",
         "classes": "ank-m-0 ank-color-linkColor ank-fontSize-0_82rem ank-fontWeight-900 ank-textTransform-uppercase ank-lineHeight-1_2"
       }
     },
@@ -76,7 +76,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Informacion sobre el uso de datos en el sitio de Roberto Rodriguez Rodriguez.",
+        "text": "Información sobre el uso de datos en el sitio de Roberto Rodríguez Rodríguez.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -160,7 +160,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Uso de informacion",
+        "text": "Uso de información",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -169,7 +169,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La informacion enviada por canales de contacto se usara para responder solicitudes de consulta, dar seguimiento a disponibilidad y mantener comunicacion relacionada con la atencion solicitada.",
+        "text": "La información enviada por canales de contacto se usara para responder solicitudes de consulta, dar seguimiento a disponibilidad y mantener comunicación relacionada con la atención solicitada.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -203,7 +203,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La consulta psicologica se presenta como un espacio profesional, privado y respetuoso. La informacion de contacto y seguimiento se maneja con criterios de confidencialidad y uso limitado a la atencion solicitada.",
+        "text": "La consulta psicológica se presenta como un espacio profesional, privado y respetuoso. La información de contacto y seguimiento se maneja con criterios de confidencialidad y uso limitado a la atención solicitada.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     }

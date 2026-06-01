@@ -67,7 +67,7 @@
       "type": "text",
       "config": {
         "tag": "h1",
-        "text": "Pagina no encontrada",
+        "text": "Página no encontrada",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_1rem ank-fontSize-md-3_2rem ank-lineHeight-1_05 ank-fontWeight-800",
         "styles": {
           "fontFamily": "Georgia, \"Times New Roman\", serif"
@@ -79,7 +79,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La pagina que buscas no esta disponible. Puedes volver al inicio o revisar la informacion principal del sitio.",
+        "text": "Puedes volver al inicio o revisar la información principal del sitio para encontrar la ruta adecuada.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
