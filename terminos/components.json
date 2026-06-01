@@ -169,7 +169,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Los precios son consulta psicológica online por $300 MXN y consulta de especialidad/autismo por $400 MXN. La disponibilidad, modalidad y horario se acuerdan por WhatsApp antes de iniciar.",
+        "text": "Los precios son consulta psicológica online por $300 MXN y consulta de especialidad en autismo por $400 MXN. La disponibilidad, sesión por WhatsApp y horario se acuerdan antes de iniciar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },

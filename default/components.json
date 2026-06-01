@@ -136,11 +136,13 @@
         "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
         "target": "_blank",
         "styles": {
           "color": "var(--ank-onSuccessColor)",
-          "borderRadius": "999px"
+          "borderRadius": "999px",
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
         },
         "rel": "noopener noreferrer"
       }
@@ -152,10 +154,12 @@
         "href": "#enfoque",
         "text": "Conocer el enfoque",
         "ariaLabel": "Conocer el enfoque",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
         "target": "_self",
         "styles": {
-          "borderRadius": "999px"
+          "borderRadius": "999px",
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
         }
       }
     },
@@ -216,7 +220,7 @@
       "type": "text",
       "config": {
         "tag": "span",
-        "text": "Adolescentes 15+ y adultos",
+        "text": "Adultos y adolescentes desde 15 años",
         "classes": "ank-bg-bgColorOPA__0_58 ank-border-1px__solid__secondaryBgColor ank-padding-14px ank-color-secondaryTextColor ank-fontSize-0_86rem ank-fontWeight-800 ank-textAlign-center",
         "styles": {
           "borderRadius": "6px",
@@ -290,7 +294,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Atención online por llamada o videollamada desde un espacio privado y profesional.",
+        "text": "Atención online por WhatsApp desde un espacio privado y profesional.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5",
         "styles": {
           "padding": "14px 16px",
@@ -355,7 +359,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Esta bien pedir ayuda",
+        "text": "Está bien pedir ayuda",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_75rem ank-fontSize-md-2_35rem ank-lineHeight-1_12 ank-fontWeight-800",
         "styles": {
           "maxWidth": "760px",
@@ -488,6 +492,7 @@
         "tag": "article",
         "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
         "components": [
+          "processCard1Icon",
           "processCard1Title",
           "processCard1Body"
         ],
@@ -522,6 +527,7 @@
         "tag": "article",
         "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
         "components": [
+          "processCard2Icon",
           "processCard2Title",
           "processCard2Body"
         ],
@@ -556,6 +562,7 @@
         "tag": "article",
         "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
         "components": [
+          "processCard3Icon",
           "processCard3Title",
           "processCard3Body"
         ],
@@ -667,6 +674,7 @@
         "tag": "article",
         "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
         "components": [
+          "approachCard1Icon",
           "approachCard1Title",
           "approachCard1Body"
         ],
@@ -701,6 +709,7 @@
         "tag": "article",
         "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
         "components": [
+          "approachCard2Icon",
           "approachCard2Title",
           "approachCard2Body"
         ],
@@ -735,6 +744,7 @@
         "tag": "article",
         "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
         "components": [
+          "approachCard3Icon",
           "approachCard3Title",
           "approachCard3Body"
         ],
@@ -1034,7 +1044,8 @@
           "faq3",
           "faq4",
           "faq5",
-          "faq6"
+          "faq6",
+          "faq7"
         ],
         "styles": {
           "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 320px), 1fr))",
@@ -1083,7 +1094,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta psicológica online por llamada o videollamada. Costo de referencia: $300 MXN por sesión.",
+        "text": "Consulta psicológica online por WhatsApp. Costo de referencia: $300 MXN por sesión.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1110,7 +1121,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Especialidad/autismo",
+        "text": "Consulta de especialidad en autismo",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1128,7 +1139,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta de especialidad/autismo. Costo de referencia: $400 MXN por sesión, con objetivos y modalidad acordados al agendar.",
+        "text": "Para personas con sospecha de autismo que buscan información y orientación hacia evaluación diagnóstica, o personas ya diagnosticadas que desean consulta psicológica considerando necesidades y preferencias específicas. Costo: $400 MXN.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1153,7 +1164,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Cómo es la primera sesión?",
+        "text": "¿Cómo es la primera sesión?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1187,7 +1198,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "La terapia es confidencial?",
+        "text": "¿La terapia es confidencial?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1221,7 +1232,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "La consulta es 100% online?",
+        "text": "¿La consulta es 100% online?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1230,7 +1241,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Sí. La atención se realiza por llamada o videollamada para personas en México.",
+        "text": "Sí. La atención se realiza online por WhatsApp para personas en México.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1255,7 +1266,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Cuánto cuesta una sesión?",
+        "text": "¿Cuánto cuesta una sesión?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1264,7 +1275,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La consulta psicológica online tiene un costo de $300. La consulta de especialidad/autismo tiene un costo de $400.",
+        "text": "La consulta psicológica online tiene un costo de $300 MXN. La consulta de especialidad en autismo tiene un costo de $400 MXN.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1289,7 +1300,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Atiende adolescentes?",
+        "text": "¿Atiende adolescentes?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1298,7 +1309,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Sí. Roberto atiende adolescentes desde 15 años. En menores de edad, el inicio del proceso considera consentimiento, privacidad y condiciones de acompañamiento acordadas antes de iniciar.",
+        "text": "Sí. Roberto atiende adolescentes desde 15 años. Para adolescentes de 15 a 17 años, el proceso inicia con consentimiento de madres, padres o tutores; también se acuerdan seguimiento, privacidad y límites de confidencialidad.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1323,7 +1334,7 @@
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Qué pasa si necesito atención urgente?",
+        "text": "¿Qué pasa si necesito atención urgente?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
       }
     },
@@ -1392,7 +1403,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Escribe por WhatsApp para consultar disponibilidad de terapia psicológica online por llamada o videollamada.",
+        "text": "Escribe por WhatsApp para consultar disponibilidad e iniciar una terapia psicológica online.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -1415,10 +1426,12 @@
         "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
         "target": "_blank",
         "styles": {
-          "color": "var(--ank-onSuccessColor)"
+          "color": "var(--ank-onSuccessColor)",
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
         },
         "rel": "noopener noreferrer"
       }
@@ -1430,8 +1443,106 @@
         "href": "#precios",
         "text": "Revisar precios",
         "ariaLabel": "Revisar precios",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
-        "target": "_self"
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
+        "target": "_self",
+        "styles": {
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
+        }
+      }
+    },
+    {
+      "id": "faq7",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "faq7Question",
+          "faq7Answer"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "faq7Question",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "¿Qué es la consulta de especialidad en autismo?",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_08rem ank-fontWeight-800 ank-lineHeight-1_25"
+      }
+    },
+    {
+      "id": "faq7Answer",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Está pensada para personas con sospecha de autismo que buscan información y orientación sobre próximos pasos hacia evaluación diagnóstica, o para personas ya diagnosticadas que quieren terapia considerando sus necesidades y preferencias específicas.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
+      }
+    },
+    {
+      "id": "processCard1Icon",
+      "type": "icon",
+      "config": {
+        "iconName": "psychology",
+        "title": "Agendar con claridad",
+        "ariaHidden": true,
+        "classes": "ank-display-block ank-width-44px ank-height-44px ank-padding-8px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-warningColor"
+      }
+    },
+    {
+      "id": "processCard2Icon",
+      "type": "icon",
+      "config": {
+        "iconName": "psychology",
+        "title": "Primera sesión",
+        "ariaHidden": true,
+        "classes": "ank-display-block ank-width-44px ank-height-44px ank-padding-8px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-warningColor"
+      }
+    },
+    {
+      "id": "processCard3Icon",
+      "type": "icon",
+      "config": {
+        "iconName": "psychology",
+        "title": "Plan de trabajo",
+        "ariaHidden": true,
+        "classes": "ank-display-block ank-width-44px ank-height-44px ank-padding-8px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-warningColor"
+      }
+    },
+    {
+      "id": "approachCard1Icon",
+      "type": "icon",
+      "config": {
+        "iconName": "psychology",
+        "title": "Comprender patrones",
+        "ariaHidden": true,
+        "classes": "ank-display-block ank-width-44px ank-height-44px ank-padding-8px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-warningColor"
+      }
+    },
+    {
+      "id": "approachCard2Icon",
+      "type": "icon",
+      "config": {
+        "iconName": "psychology",
+        "title": "Herramientas prácticas",
+        "ariaHidden": true,
+        "classes": "ank-display-block ank-width-44px ank-height-44px ank-padding-8px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-warningColor"
+      }
+    },
+    {
+      "id": "approachCard3Icon",
+      "type": "icon",
+      "config": {
+        "iconName": "psychology",
+        "title": "Trabajo respetuoso",
+        "ariaHidden": true,
+        "classes": "ank-display-block ank-width-44px ank-height-44px ank-padding-8px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-warningColor"
       }
     }
   ]

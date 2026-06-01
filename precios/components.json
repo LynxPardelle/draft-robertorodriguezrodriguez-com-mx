@@ -165,7 +165,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta psicológica online: $300 MXN por sesión. La modalidad por llamada o videollamada y el horario se acuerdan al agendar por WhatsApp.",
+        "text": "Consulta psicológica online: $300 MXN por sesión. La sesión online por WhatsApp y el horario se acuerdan al agendar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -190,7 +190,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Especialidad/autismo",
+        "text": "Consulta de especialidad en autismo",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -199,7 +199,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta de especialidad/autismo: $400 MXN por sesión. Se agenda revisando pertinencia clínica, modalidad y objetivos de trabajo acordados.",
+        "text": "Consulta para personas con sospecha de autismo que buscan información y orientación hacia evaluación diagnóstica, así como para personas ya diagnosticadas que desean acompañamiento psicológico tomando en cuenta necesidades y preferencias específicas. Costo de referencia: $400 MXN por sesión.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -262,11 +262,13 @@
         "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
         "target": "_blank",
         "styles": {
           "borderRadius": "999px",
-          "color": "var(--ank-onSuccessColor)"
+          "color": "var(--ank-onSuccessColor)",
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
         },
         "rel": "noopener noreferrer"
       }
