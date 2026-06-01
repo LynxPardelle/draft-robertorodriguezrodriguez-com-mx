@@ -124,7 +124,9 @@
         "components": [
           "preguntas-frecuentesBlock1",
           "preguntas-frecuentesBlock2",
-          "preguntas-frecuentesBlock3"
+          "preguntas-frecuentesBlock3",
+          "preguntas-frecuentesBlock4",
+          "preguntas-frecuentesBlock5"
         ],
         "styles": {
           "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 280px), 1fr))"
@@ -195,7 +197,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La consulta se maneja como un espacio profesional y privado. El aviso de privacidad debe revisarse antes de publicar el sitio final.",
+        "text": "La consulta se maneja como un espacio profesional y privado. La informacion compartida por canales de contacto se usa para responder solicitudes, agendar y dar seguimiento a la atencion solicitada.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -220,7 +222,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "La consulta sustituye urgencias",
+        "text": "Sustituye urgencias o atencion psiquiatrica?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -275,7 +277,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La informacion visible ayuda a tomar una decision sin presion y sin promesas clinicas no verificadas.",
+        "text": "Escribe por WhatsApp para resolver dudas de disponibilidad, modalidad y costo antes de agendar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "680px"
@@ -286,15 +288,84 @@
       "id": "preguntas-frecuentesCtaLink",
       "type": "link",
       "config": {
-        "href": "/contacto",
-        "text": "Ir a contacto",
-        "ariaLabel": "Ir a contacto",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "text": "Agendar cita por WhatsApp",
+        "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
-        "target": "_self",
+        "target": "_blank",
         "styles": {
           "borderRadius": "999px",
           "color": "var(--ank-onSuccessColor)"
+        },
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "id": "preguntas-frecuentesBlock4",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "preguntas-frecuentesBlock4Title",
+          "preguntas-frecuentesBlock4Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
         }
+      }
+    },
+    {
+      "id": "preguntas-frecuentesBlock4Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Atiende adolescentes?",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "preguntas-frecuentesBlock4Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Si. La atencion psicologica online esta disponible para adolescentes desde 15 anos y adultos. En menores de edad se acuerdan condiciones de consentimiento y acompanamiento antes de iniciar.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "preguntas-frecuentesBlock5",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "preguntas-frecuentesBlock5Title",
+          "preguntas-frecuentesBlock5Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "preguntas-frecuentesBlock5Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Como agendo por WhatsApp?",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "preguntas-frecuentesBlock5Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Escribe al +52 1 55 4189 2942 con tu nombre, edad y horarios posibles. Puedes explicar el motivo de consulta de forma general y resolver los detalles durante la sesion.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     }
   ]

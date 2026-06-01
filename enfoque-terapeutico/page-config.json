@@ -18,28 +18,30 @@
       "es": "Enfoque terapeutico psicodinamico y TCC | Roberto Rodriguez"
     },
     "description": {
-      "es": "Conoce el enfoque terapeutico de Roberto Rodriguez: mirada psicodinamica, herramientas TCC y acompaniamiento clinico sin promesas de cura."
+      "es": "Enfoque terapeutico integrativo: psicodinamismo y herramientas cognitivo-conductuales para terapia psicologica online."
     },
     "openGraph": {
       "title": {
         "es": "Enfoque terapeutico psicodinamico y TCC | Roberto Rodriguez"
       },
       "description": {
-        "es": "Conoce el enfoque terapeutico de Roberto Rodriguez: mirada psicodinamica, herramientas TCC y acompaniamiento clinico sin promesas de cura."
+        "es": "Enfoque terapeutico integrativo: psicodinamismo y herramientas cognitivo-conductuales para terapia psicologica online."
       },
-      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/enfoque-terapeutico/section-images/therapeutic-approach-room.jpg",
       "url": "https://robertorodriguezrodriguez.com.mx/enfoque-terapeutico",
-      "type": "website"
+      "type": "website",
+      "image:alt": "Espacio de acompanamiento psicologico profesional"
     },
     "twitter": {
       "title": {
         "es": "Enfoque terapeutico psicodinamico y TCC | Roberto Rodriguez"
       },
       "description": {
-        "es": "Conoce el enfoque terapeutico de Roberto Rodriguez: mirada psicodinamica, herramientas TCC y acompaniamiento clinico sin promesas de cura."
+        "es": "Enfoque terapeutico integrativo: psicodinamismo y herramientas cognitivo-conductuales para terapia psicologica online."
       },
-      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
-      "card": "summary_large_image"
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/enfoque-terapeutico/section-images/therapeutic-approach-room.jpg",
+      "card": "summary_large_image",
+      "image:alt": "Espacio de acompanamiento psicologico profesional"
     },
     "canonical": "https://robertorodriguezrodriguez.com.mx/enfoque-terapeutico",
     "keywords": {
@@ -47,7 +49,8 @@
         "terapia psicologica online",
         "psicologo online Mexico",
         "consulta psicologica online",
-        "Roberto Rodriguez Rodriguez"
+        "Roberto Rodriguez Rodriguez",
+        "terapia para adolescentes desde 15 anos"
       ]
     },
     "robots": "index,follow,max-image-preview:large"
@@ -58,7 +61,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Enfoque terapeutico psicodinamico y TCC | Roberto Rodriguez",
-        "description": "Conoce el enfoque terapeutico de Roberto Rodriguez: mirada psicodinamica, herramientas TCC y acompaniamiento clinico sin promesas de cura.",
+        "description": "Enfoque terapeutico integrativo: psicodinamismo y herramientas cognitivo-conductuales para terapia psicologica online.",
         "url": "https://robertorodriguezrodriguez.com.mx/enfoque-terapeutico",
         "inLanguage": "es"
       }

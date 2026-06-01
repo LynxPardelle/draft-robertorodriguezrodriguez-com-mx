@@ -131,15 +131,16 @@
       "id": "heroPrimary",
       "type": "link",
       "config": {
-        "href": "#contacto",
-        "text": "Agendar cita",
-        "ariaLabel": "Agendar cita",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "text": "Agendar cita por WhatsApp",
+        "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
-        "target": "_self",
+        "target": "_blank",
         "styles": {
           "color": "var(--ank-onSuccessColor)",
           "borderRadius": "999px"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -178,10 +179,15 @@
       "type": "text",
       "config": {
         "tag": "span",
-        "text": "Psicologo clinico con cedula vigente",
+        "text": "Psicologo clinico con cedula profesional vigente",
         "classes": "ank-bg-bgColorOPA__0_58 ank-border-1px__solid__secondaryBgColor ank-padding-14px ank-color-secondaryTextColor ank-fontSize-0_86rem ank-fontWeight-800 ank-textAlign-center",
         "styles": {
-          "borderRadius": "6px"
+          "borderRadius": "6px",
+          "minHeight": "58px",
+          "width": "100%",
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center"
         }
       }
     },
@@ -193,7 +199,12 @@
         "text": "Psicodinamico + TCC",
         "classes": "ank-bg-bgColorOPA__0_58 ank-border-1px__solid__secondaryBgColor ank-padding-14px ank-color-secondaryTextColor ank-fontSize-0_86rem ank-fontWeight-800 ank-textAlign-center",
         "styles": {
-          "borderRadius": "6px"
+          "borderRadius": "6px",
+          "minHeight": "58px",
+          "width": "100%",
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center"
         }
       }
     },
@@ -202,10 +213,15 @@
       "type": "text",
       "config": {
         "tag": "span",
-        "text": "Adultos y adolescentes",
+        "text": "Adolescentes 15+ y adultos",
         "classes": "ank-bg-bgColorOPA__0_58 ank-border-1px__solid__secondaryBgColor ank-padding-14px ank-color-secondaryTextColor ank-fontSize-0_86rem ank-fontWeight-800 ank-textAlign-center",
         "styles": {
-          "borderRadius": "6px"
+          "borderRadius": "6px",
+          "minHeight": "58px",
+          "width": "100%",
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center"
         }
       }
     },
@@ -852,7 +868,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Psicologo clinico con cedula profesional vigente. Atencion online para adultos y adolescentes desde un espacio confidencial, profesional y sin juicio.",
+        "text": "Psicologo clinico con cedula profesional vigente. Atencion online para adultos y adolescentes desde 15 anos en un espacio confidencial, profesional y sin juicio.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65",
         "styles": {
           "maxWidth": "790px"
@@ -864,7 +880,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Pedir ayuda es una decision importante; el proceso cuida claridad, respeto y confidencialidad desde la primera conversacion.",
+        "text": "Pedir ayuda es una decision importante; el proceso cuida claridad, respeto y confidencialidad desde la primera conversacion por WhatsApp.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65",
         "styles": {
           "padding": "16px",
@@ -1058,7 +1074,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Sesion de acompanamiento psicologico online.",
+        "text": "Consulta psicologica online por llamada o videollamada. Costo de referencia: $300 MXN por sesion.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1103,7 +1119,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta de especialidad con costo claro antes de agendar.",
+        "text": "Consulta de especialidad/autismo. Costo de referencia: $400 MXN por sesion, con objetivos y modalidad acordados al agendar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1273,7 +1289,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La atencion para adolescentes requiere confirmacion previa de alcance, consentimiento y condiciones de acompanamiento antes de iniciar el proceso.",
+        "text": "La consulta psicologica online tiene un costo de $300 MXN. La consulta de especialidad/autismo tiene un costo de $400 MXN.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1307,7 +1323,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Este servicio no sustituye atencion de emergencia. Si estas en riesgo inmediato, busca apoyo de emergencias o una linea local de atencion urgente.",
+        "text": "Si. Roberto atiende adolescentes desde 15 anos. En menores de edad, el inicio del proceso considera consentimiento, privacidad y condiciones de acompanamiento acordadas antes de iniciar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1367,7 +1383,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Puedes consultar disponibilidad y agendar una primera sesion online.",
+        "text": "Escribe por WhatsApp para consultar disponibilidad de terapia psicologica online por llamada o videollamada.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -1387,14 +1403,15 @@
       "id": "finalPrimary",
       "type": "link",
       "config": {
-        "href": "#contacto",
-        "text": "Agendar cita",
-        "ariaLabel": "Agendar cita",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "text": "Agendar cita por WhatsApp",
+        "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
-        "target": "_self",
+        "target": "_blank",
         "styles": {
           "color": "var(--ank-onSuccessColor)"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {

@@ -161,7 +161,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Costo de referencia: $300 MXN. La modalidad, horario y disponibilidad se confirman antes de iniciar.",
+        "text": "Consulta psicologica online: $300 MXN por sesion. La modalidad por llamada o videollamada y el horario se acuerdan al agendar por WhatsApp.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -195,7 +195,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Costo de referencia: $400 MXN. Este servicio requiere confirmar alcance, modalidad y pertinencia antes de publicar o promover.",
+        "text": "Consulta de especialidad/autismo: $400 MXN por sesion. Se agenda revisando pertinencia clinica, modalidad y objetivos de trabajo sin prometer diagnosticos ni resultados.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -266,7 +266,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Confirma disponibilidad",
+        "text": "Agenda por WhatsApp",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontWeight-900 ank-lineHeight-1_1"
       }
     },
@@ -275,7 +275,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "El canal publico de agenda se agregara solo cuando este autorizado para el sitio.",
+        "text": "Escribe al +52 1 55 4189 2942 para consultar disponibilidad y resolver dudas antes de agendar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "680px"
@@ -286,15 +286,16 @@
       "id": "preciosCtaLink",
       "type": "link",
       "config": {
-        "href": "/contacto",
-        "text": "Ir a contacto",
-        "ariaLabel": "Ir a contacto",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "text": "Agendar cita por WhatsApp",
+        "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
-        "target": "_self",
+        "target": "_blank",
         "styles": {
           "borderRadius": "999px",
           "color": "var(--ank-onSuccessColor)"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     }
   ]

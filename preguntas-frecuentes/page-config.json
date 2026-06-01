@@ -18,14 +18,14 @@
       "es": "Preguntas frecuentes sobre terapia online | Roberto Rodriguez"
     },
     "description": {
-      "es": "Respuestas sobre primera sesion, confidencialidad, terapia online, precios, emergencias y alcance del servicio psicologico."
+      "es": "Preguntas frecuentes sobre terapia psicologica online, costos, confidencialidad, adolescentes desde 15 anos y agenda por WhatsApp."
     },
     "openGraph": {
       "title": {
         "es": "Preguntas frecuentes sobre terapia online | Roberto Rodriguez"
       },
       "description": {
-        "es": "Respuestas sobre primera sesion, confidencialidad, terapia online, precios, emergencias y alcance del servicio psicologico."
+        "es": "Preguntas frecuentes sobre terapia psicologica online, costos, confidencialidad, adolescentes desde 15 anos y agenda por WhatsApp."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "url": "https://robertorodriguezrodriguez.com.mx/preguntas-frecuentes",
@@ -36,7 +36,7 @@
         "es": "Preguntas frecuentes sobre terapia online | Roberto Rodriguez"
       },
       "description": {
-        "es": "Respuestas sobre primera sesion, confidencialidad, terapia online, precios, emergencias y alcance del servicio psicologico."
+        "es": "Preguntas frecuentes sobre terapia psicologica online, costos, confidencialidad, adolescentes desde 15 anos y agenda por WhatsApp."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "card": "summary_large_image"
@@ -47,7 +47,8 @@
         "terapia psicologica online",
         "psicologo online Mexico",
         "consulta psicologica online",
-        "Roberto Rodriguez Rodriguez"
+        "Roberto Rodriguez Rodriguez",
+        "terapia para adolescentes desde 15 anos"
       ]
     },
     "robots": "index,follow,max-image-preview:large"
@@ -58,7 +59,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Preguntas frecuentes sobre terapia online | Roberto Rodriguez",
-        "description": "Respuestas sobre primera sesion, confidencialidad, terapia online, precios, emergencias y alcance del servicio psicologico.",
+        "description": "Preguntas frecuentes sobre terapia psicologica online, costos, confidencialidad, adolescentes desde 15 anos y agenda por WhatsApp.",
         "url": "https://robertorodriguezrodriguez.com.mx/preguntas-frecuentes",
         "inLanguage": "es"
       }

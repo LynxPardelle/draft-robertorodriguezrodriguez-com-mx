@@ -6,7 +6,15 @@
     "assets": {
       "portraitUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/profile-images/roberto-profile-portrait.jpeg",
       "supportImageUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/default/section-images/calm-online-therapy-workspace.jpg",
-      "ogImageUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg"
+      "ogImageUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "onlineTherapyDeskUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/terapia-psicologica-online/section-images/online-therapy-desk.jpg",
+      "therapeuticApproachRoomUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/enfoque-terapeutico/section-images/therapeutic-approach-room.jpg",
+      "appointmentPlannerUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/contacto/section-images/appointment-planner.jpg"
+    },
+    "contact": {
+      "whatsappDisplay": "+52 1 55 4189 2942",
+      "whatsappUrl": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+      "email": "r.rodriguez_r@outlook.com"
     }
   }
 }

@@ -11,6 +11,7 @@
         "classes": "ank-display-flex ank-flexDirection-column ank-bg-bgColor ank-color-textColor",
         "components": [
           "enfoque-terapeuticoHero",
+          "enfoqueVisualSection",
           "enfoque-terapeuticoContent",
           "enfoque-terapeuticoCta"
         ],
@@ -82,7 +83,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "El trabajo terapeutico combina escucha, comprension de patrones y herramientas practicas para ordenar lo que se vive en el presente.",
+        "text": "El trabajo terapeutico integra psicodinamismo y herramientas cognitivo-conductuales para comprender patrones, ordenar emociones y construir recursos practicos.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "760px"
@@ -266,7 +267,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Un enfoque claro y humano",
+        "text": "Un enfoque basado en evidencia y trato humano",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontWeight-900 ank-lineHeight-1_1"
       }
     },
@@ -275,7 +276,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La pagina evita diagnosticos, garantias o lenguaje alarmista. El objetivo es explicar como se trabaja de forma comprensible.",
+        "text": "Cada proceso se adapta a la persona, sus objetivos y su ritmo, sin prometer resultados inmediatos ni usar lenguaje alarmista.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "680px"
@@ -286,15 +287,78 @@
       "id": "enfoque-terapeuticoCtaLink",
       "type": "link",
       "config": {
-        "href": "/contacto",
-        "text": "Ir a contacto",
-        "ariaLabel": "Ir a contacto",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "text": "Agendar cita por WhatsApp",
+        "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
-        "target": "_self",
+        "target": "_blank",
         "styles": {
           "borderRadius": "999px",
           "color": "var(--ank-onSuccessColor)"
+        },
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "id": "enfoqueVisualSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-40px ank-color-textColor ank-bg-bgColor",
+        "components": [
+          "enfoqueVisualInner"
+        ],
+        "styles": {
+          "paddingTop": "40px",
+          "paddingBottom": "18px"
+        },
+        "id": "visual"
+      }
+    },
+    {
+      "id": "enfoqueVisualInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-grid ank-gap-16px",
+        "components": [
+          "enfoqueVisualFrame"
+        ],
+        "styles": {
+          "maxWidth": "1040px"
         }
+      }
+    },
+    {
+      "id": "enfoqueVisualFrame",
+      "type": "container",
+      "config": {
+        "tag": "figure",
+        "classes": "ank-m-0 ank-overflow-hidden ank-border-1px__solid__secondaryBgColor ank-bg-bgColor",
+        "components": [
+          "enfoqueVisualImage"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "aspectRatio": "3 / 2",
+          "maxHeight": "540px",
+          "boxShadow": "0 18px 44px rgba(49,85,70,0.1)"
+        }
+      }
+    },
+    {
+      "id": "enfoqueVisualImage",
+      "type": "media",
+      "config": {
+        "id": "enfoqueVisualImage",
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/enfoque-terapeutico/section-images/therapeutic-approach-room.jpg",
+        "alt": "Espacio sereno para acompanamiento psicologico profesional",
+        "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-cover",
+        "width": 1536,
+        "height": 1024,
+        "decoding": "async",
+        "loading": "lazy"
       }
     }
   ]

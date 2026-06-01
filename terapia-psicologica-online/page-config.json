@@ -18,28 +18,30 @@
       "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
     },
     "description": {
-      "es": "Consulta psicologica online en Mexico con acompaniamiento profesional, confidencial y humano para trabajar ansiedad, estres, autoestima y relaciones."
+      "es": "Consulta psicologica online en Mexico para adultos y adolescentes desde 15 anos, con acompanamiento profesional por llamada o videollamada."
     },
     "openGraph": {
       "title": {
         "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
       },
       "description": {
-        "es": "Consulta psicologica online en Mexico con acompaniamiento profesional, confidencial y humano para trabajar ansiedad, estres, autoestima y relaciones."
+        "es": "Consulta psicologica online en Mexico para adultos y adolescentes desde 15 anos, con acompanamiento profesional por llamada o videollamada."
       },
-      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/terapia-psicologica-online/section-images/online-therapy-desk.jpg",
       "url": "https://robertorodriguezrodriguez.com.mx/terapia-psicologica-online",
-      "type": "website"
+      "type": "website",
+      "image:alt": "Espacio para terapia psicologica online"
     },
     "twitter": {
       "title": {
         "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
       },
       "description": {
-        "es": "Consulta psicologica online en Mexico con acompaniamiento profesional, confidencial y humano para trabajar ansiedad, estres, autoestima y relaciones."
+        "es": "Consulta psicologica online en Mexico para adultos y adolescentes desde 15 anos, con acompanamiento profesional por llamada o videollamada."
       },
-      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
-      "card": "summary_large_image"
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/terapia-psicologica-online/section-images/online-therapy-desk.jpg",
+      "card": "summary_large_image",
+      "image:alt": "Espacio para terapia psicologica online"
     },
     "canonical": "https://robertorodriguezrodriguez.com.mx/terapia-psicologica-online",
     "keywords": {
@@ -47,7 +49,8 @@
         "terapia psicologica online",
         "psicologo online Mexico",
         "consulta psicologica online",
-        "Roberto Rodriguez Rodriguez"
+        "Roberto Rodriguez Rodriguez",
+        "terapia para adolescentes desde 15 anos"
       ]
     },
     "robots": "index,follow,max-image-preview:large"
@@ -58,7 +61,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Terapia psicologica online en Mexico | Roberto Rodriguez",
-        "description": "Consulta psicologica online en Mexico con acompaniamiento profesional, confidencial y humano para trabajar ansiedad, estres, autoestima y relaciones.",
+        "description": "Consulta psicologica online en Mexico para adultos y adolescentes desde 15 anos, con acompanamiento profesional por llamada o videollamada.",
         "url": "https://robertorodriguezrodriguez.com.mx/terapia-psicologica-online",
         "inLanguage": "es"
       }

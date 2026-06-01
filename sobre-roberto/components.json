@@ -259,7 +259,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Alcance pendiente de confirmacion",
+        "text": "Atencion para 15 anos en adelante",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -268,7 +268,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Antes de publicar se debe confirmar el alcance operativo y legal para atencion a adolescentes y cualquier especialidad mencionada.",
+        "text": "Roberto atiende adultos y adolescentes desde 15 anos. En menores de edad se acuerdan condiciones de consentimiento, privacidad y acompanamiento antes de iniciar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -305,7 +305,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Conoce el enfoque antes de decidir",
+        "text": "Agenda una consulta online",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontWeight-900 ank-lineHeight-1_1"
       }
     },
@@ -314,7 +314,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Revisa el enfoque terapeutico, precios y preguntas frecuentes para tomar una decision informada.",
+        "text": "Escribe por WhatsApp para consultar disponibilidad y modalidad de llamada o videollamada.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "680px"
@@ -325,15 +325,16 @@
       "id": "sobre-robertoCtaLink",
       "type": "link",
       "config": {
-        "href": "/contacto",
-        "text": "Ir a contacto",
-        "ariaLabel": "Ir a contacto",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "text": "Agendar cita por WhatsApp",
+        "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
-        "target": "_self",
+        "target": "_blank",
         "styles": {
           "borderRadius": "999px",
           "color": "var(--ank-onSuccessColor)"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     }
   ]
