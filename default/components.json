@@ -1812,7 +1812,7 @@
           "opacity": "0.94",
           "filter": "drop-shadow(0 10px 18px rgba(49,85,70,0.16)) drop-shadow(0 1px 0 rgba(255,255,255,0.85))",
           "transform": "rotate(-6deg)",
-          "right": "max(12px, calc((100vw - 1040px) / 2 + 8px))",
+          "right": "clamp(6px, calc((100vw - 1040px) / 2 + 8px), 208px)",
           "bottom": "clamp(10px, 2vw, 24px)"
         }
       }
