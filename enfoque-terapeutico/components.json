@@ -44,14 +44,17 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-display-grid ank-gap-16px ank-justifyItems-center ank-textAlign-center",
+        "classes": "ank-width-100per ank-display-grid ank-gap-16px ank-textAlign-center",
         "components": [
           "enfoque-terapeuticoEyebrow",
           "enfoque-terapeuticoTitle",
           "enfoque-terapeuticoLead"
         ],
         "styles": {
-          "maxWidth": "900px"
+          "maxWidth": "900px",
+          "justifyItems": "stretch",
+          "gridTemplateColumns": "minmax(0, 1fr)",
+          "minWidth": "0"
         }
       }
     },
@@ -73,8 +76,7 @@
         "classes": "ank-m-0 ank-color-titleColor ank-lineHeight-1_05 ank-fontWeight-800",
         "styles": {
           "maxWidth": "840px",
-          "fontFamily": "Georgia, \"Times New Roman\", serif",
-          "fontSize": "clamp(2.05rem, 4vw, 3.7rem)"
+          "fontFamily": "Georgia, \"Times New Roman\", serif"
         }
       }
     },
@@ -112,7 +114,9 @@
           "enfoque-terapeuticoGrid"
         ],
         "styles": {
-          "maxWidth": "1040px"
+          "maxWidth": "1040px",
+          "gridTemplateColumns": "minmax(0, 1fr)",
+          "minWidth": "0"
         }
       }
     },
@@ -128,7 +132,8 @@
           "enfoque-terapeuticoBlock3"
         ],
         "styles": {
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 280px), 1fr))"
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
+          "minWidth": "0"
         }
       }
     },
@@ -251,14 +256,17 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-display-grid ank-gap-16px ank-justifyItems-center ank-textAlign-center",
+        "classes": "ank-width-100per ank-display-grid ank-gap-16px ank-textAlign-center",
         "components": [
           "enfoque-terapeuticoCtaTitle",
           "enfoque-terapeuticoCtaBody",
           "enfoque-terapeuticoCtaLink"
         ],
         "styles": {
-          "maxWidth": "780px"
+          "maxWidth": "780px",
+          "justifyItems": "stretch",
+          "gridTemplateColumns": "minmax(0, 1fr)",
+          "minWidth": "0"
         }
       }
     },
@@ -325,7 +333,9 @@
           "enfoqueVisualFrame"
         ],
         "styles": {
-          "maxWidth": "1040px"
+          "maxWidth": "1040px",
+          "gridTemplateColumns": "minmax(0, 1fr)",
+          "minWidth": "0"
         }
       }
     },

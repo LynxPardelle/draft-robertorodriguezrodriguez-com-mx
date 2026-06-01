@@ -33,6 +33,11 @@
         "id": "navPreguntas",
         "label": "Preguntas",
         "value": "/preguntas-frecuentes"
+      },
+      {
+        "id": "navContacto",
+        "label": "Contacto",
+        "value": "/contacto"
       }
     ],
     "brand": {
