@@ -135,7 +135,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Este sitio presenta servicios de consulta psicologica online. No sustituye servicios de emergencia, atencion medica urgente ni atencion psiquiatrica.",
+        "text": "Este sitio presenta servicios de consulta psicologica online para adultos y adolescentes desde 15 anos. No sustituye servicios de emergencia, atencion medica urgente ni atencion psiquiatrica.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -169,7 +169,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Los precios son consulta psicologica online por $300 y consulta de especialidad/autismo por $400. La disponibilidad y modalidad se confirman antes de agendar.",
+        "text": "Los precios son consulta psicologica online por $300 MXN y consulta de especialidad/autismo por $400 MXN. La disponibilidad, modalidad y horario se acuerdan por WhatsApp antes de iniciar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },

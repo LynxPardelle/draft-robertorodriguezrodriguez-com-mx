@@ -18,14 +18,14 @@
       "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
     },
     "description": {
-      "es": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes en Mexico. Consulta disponibilidad con Roberto Rodriguez Rodriguez."
+      "es": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes desde 15 anos en Mexico. Agenda por WhatsApp con Roberto Rodriguez Rodriguez."
     },
     "openGraph": {
       "title": {
         "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
       },
       "description": {
-        "es": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes en Mexico."
+        "es": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes desde 15 anos en Mexico. Agenda por WhatsApp con Roberto Rodriguez Rodriguez."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "url": "https://robertorodriguezrodriguez.com.mx/",
@@ -36,7 +36,7 @@
         "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
       },
       "description": {
-        "es": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes en Mexico."
+        "es": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes desde 15 anos en Mexico. Agenda por WhatsApp con Roberto Rodriguez Rodriguez."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "card": "summary_large_image"
@@ -49,7 +49,8 @@
         "psicologo online Mexico",
         "consulta psicologica online",
         "terapia para ansiedad",
-        "terapia para estres"
+        "terapia para estres",
+        "terapia para adolescentes desde 15 anos"
       ]
     },
     "robots": "index,follow,max-image-preview:large"
@@ -62,11 +63,24 @@
         "name": "Roberto Rodriguez Rodriguez",
         "url": "https://robertorodriguezrodriguez.com.mx/",
         "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/profile-images/roberto-profile-portrait.jpeg",
-        "description": "Terapia psicologica online, confidencial y humana para adultos y adolescentes en Mexico.",
+        "description": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes desde 15 anos en Mexico. Agenda por WhatsApp con Roberto Rodriguez Rodriguez.",
         "areaServed": "Mexico",
         "availableLanguage": "Spanish",
         "priceRange": "$300-$400 MXN",
-        "serviceType": "Terapia psicologica online"
+        "serviceType": "Terapia psicologica online",
+        "telephone": "+52 1 55 4189 2942",
+        "email": "r.rodriguez_r@outlook.com",
+        "serviceAudience": {
+          "@type": "Audience",
+          "audienceType": "Adultos y adolescentes desde 15 anos"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+52 1 55 4189 2942",
+          "contactType": "appointments",
+          "availableLanguage": "Spanish",
+          "areaServed": "MX"
+        }
       }
     ]
   },

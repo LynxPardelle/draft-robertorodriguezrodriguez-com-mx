@@ -18,14 +18,14 @@
       "es": "Aviso de privacidad | Roberto Rodriguez Rodriguez"
     },
     "description": {
-      "es": "Informacion sobre el uso de datos en el sitio de Roberto Rodriguez Rodriguez."
+      "es": "Aviso de privacidad del sitio de Roberto Rodriguez Rodriguez para solicitudes de consulta psicologica online."
     },
     "openGraph": {
       "title": {
         "es": "Aviso de privacidad | Roberto Rodriguez Rodriguez"
       },
       "description": {
-        "es": "Informacion sobre el uso de datos en el sitio de Roberto Rodriguez Rodriguez."
+        "es": "Aviso de privacidad del sitio de Roberto Rodriguez Rodriguez para solicitudes de consulta psicologica online."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "url": "https://robertorodriguezrodriguez.com.mx/privacidad",
@@ -36,7 +36,7 @@
         "es": "Aviso de privacidad | Roberto Rodriguez Rodriguez"
       },
       "description": {
-        "es": "Informacion sobre el uso de datos en el sitio de Roberto Rodriguez Rodriguez."
+        "es": "Aviso de privacidad del sitio de Roberto Rodriguez Rodriguez para solicitudes de consulta psicologica online."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "card": "summary_large_image"
@@ -50,7 +50,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Aviso de privacidad | Roberto Rodriguez Rodriguez",
-        "description": "Informacion sobre el uso de datos en el sitio de Roberto Rodriguez Rodriguez.",
+        "description": "Aviso de privacidad del sitio de Roberto Rodriguez Rodriguez para solicitudes de consulta psicologica online.",
         "url": "https://robertorodriguezrodriguez.com.mx/privacidad",
         "inLanguage": "es"
       }

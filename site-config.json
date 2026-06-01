@@ -128,7 +128,7 @@
       "identifier": "robertorodriguezrodriguezcommx",
       "name": "Roberto Rodriguez Rodriguez",
       "version": "1.0.0",
-      "description": "Terapia psicologica online en Mexico con atencion profesional, confidencial y humana."
+      "description": "Terapia psicologica online en Mexico para adultos y adolescentes desde 15 anos, con atencion profesional, confidencial y humana."
     },
     "i18n": {
       "defaultLanguage": "es",
@@ -145,7 +145,7 @@
     "seo": {
       "siteName": "Roberto Rodriguez Rodriguez",
       "title": "Terapia psicologica online en Mexico | Roberto Rodriguez",
-      "description": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes en Mexico. Consulta disponibilidad con Roberto Rodriguez Rodriguez.",
+      "description": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes desde 15 anos en Mexico. Agenda por WhatsApp con Roberto Rodriguez Rodriguez.",
       "canonicalOrigin": "https://robertorodriguezrodriguez.com.mx",
       "enforceCanonicalHost": true,
       "forceHttps": true,
@@ -174,7 +174,11 @@
           "terapia para ansiedad",
           "terapia para estres",
           "enfoque psicodinamico",
-          "terapia cognitivo conductual"
+          "terapia cognitivo conductual",
+          "terapia psicologica para adolescentes desde 15 anos",
+          "terapia online para adolescentes Mexico",
+          "psicologo para adultos online",
+          "terapia psicologica por videollamada"
         ]
       },
       "robots": "index,follow,max-image-preview:large"

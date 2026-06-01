@@ -18,28 +18,30 @@
       "es": "Contacto para consulta psicologica online | Roberto Rodriguez"
     },
     "description": {
-      "es": "Pagina de contacto para consulta psicologica online con Roberto Rodriguez. El canal publico de agenda se confirma antes de publicar."
+      "es": "Contacto para consulta psicologica online con Roberto Rodriguez Rodriguez. Agenda por WhatsApp al +52 1 55 4189 2942."
     },
     "openGraph": {
       "title": {
         "es": "Contacto para consulta psicologica online | Roberto Rodriguez"
       },
       "description": {
-        "es": "Pagina de contacto para consulta psicologica online con Roberto Rodriguez. El canal publico de agenda se confirma antes de publicar."
+        "es": "Contacto para consulta psicologica online con Roberto Rodriguez Rodriguez. Agenda por WhatsApp al +52 1 55 4189 2942."
       },
-      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/contacto/section-images/appointment-planner.jpg",
       "url": "https://robertorodriguezrodriguez.com.mx/contacto",
-      "type": "website"
+      "type": "website",
+      "image:alt": "Agenda para consulta psicologica online por WhatsApp"
     },
     "twitter": {
       "title": {
         "es": "Contacto para consulta psicologica online | Roberto Rodriguez"
       },
       "description": {
-        "es": "Pagina de contacto para consulta psicologica online con Roberto Rodriguez. El canal publico de agenda se confirma antes de publicar."
+        "es": "Contacto para consulta psicologica online con Roberto Rodriguez Rodriguez. Agenda por WhatsApp al +52 1 55 4189 2942."
       },
-      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
-      "card": "summary_large_image"
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/contacto/section-images/appointment-planner.jpg",
+      "card": "summary_large_image",
+      "image:alt": "Agenda para consulta psicologica online por WhatsApp"
     },
     "canonical": "https://robertorodriguezrodriguez.com.mx/contacto",
     "keywords": {
@@ -47,7 +49,8 @@
         "terapia psicologica online",
         "psicologo online Mexico",
         "consulta psicologica online",
-        "Roberto Rodriguez Rodriguez"
+        "Roberto Rodriguez Rodriguez",
+        "terapia para adolescentes desde 15 anos"
       ]
     },
     "robots": "index,follow,max-image-preview:large"
@@ -58,7 +61,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Contacto para consulta psicologica online | Roberto Rodriguez",
-        "description": "Pagina de contacto para consulta psicologica online con Roberto Rodriguez. El canal publico de agenda se confirma antes de publicar.",
+        "description": "Contacto para consulta psicologica online con Roberto Rodriguez Rodriguez. Agenda por WhatsApp al +52 1 55 4189 2942.",
         "url": "https://robertorodriguezrodriguez.com.mx/contacto",
         "inLanguage": "es"
       }

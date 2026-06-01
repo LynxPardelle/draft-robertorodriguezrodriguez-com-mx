@@ -130,26 +130,27 @@
       "id": "headerCtaLink",
       "type": "link",
       "config": {
-        "href": "/contacto",
-        "text": "Contacto",
-        "ariaLabel": "Contacto",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "text": "Agendar cita",
+        "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
-        "target": "_self",
+        "target": "_blank",
         "styles": {
           "whiteSpace": "normal",
           "color": "var(--ank-onSuccessColor)"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
       "id": "floatingCta",
       "type": "link",
       "config": {
-        "href": "/#contacto",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita",
-        "ariaLabel": "Agendar cita",
+        "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-flex ank-d-md-none ank-alignItems-center ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-border-1px__solid__successColor ank-fontWeight-900 ank-textDecoration-none ank-textAlign-center",
-        "target": "_self",
+        "target": "_blank",
         "styles": {
           "position": "fixed",
           "right": "16px",
@@ -158,7 +159,8 @@
           "minHeight": "48px",
           "boxShadow": "0 14px 30px rgba(49,85,70,0.28)",
           "color": "var(--ank-onSuccessColor)"
-        }
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -220,7 +222,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Terapia psicologica online en Mexico con atencion profesional, confidencial y humana.",
+        "text": "Terapia psicologica online en Mexico para adultos y adolescentes desde 15 anos. Agenda por WhatsApp: +52 1 55 4189 2942.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
