@@ -60,7 +60,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Enfoque terapeutico",
+        "text": "Enfoque terapéutico",
         "classes": "ank-m-0 ank-color-linkColor ank-fontSize-0_82rem ank-fontWeight-900 ank-textTransform-uppercase ank-lineHeight-1_2"
       }
     },
@@ -69,7 +69,7 @@
       "type": "text",
       "config": {
         "tag": "h1",
-        "text": "Profundidad psicodinamica con herramientas TCC",
+        "text": "Profundidad psicodinámica con herramientas TCC",
         "classes": "ank-m-0 ank-color-titleColor ank-lineHeight-1_05 ank-fontWeight-800",
         "styles": {
           "maxWidth": "840px",
@@ -83,7 +83,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "El trabajo terapeutico integra psicodinamismo y herramientas cognitivo-conductuales para comprender patrones, ordenar emociones y construir recursos practicos.",
+        "text": "El trabajo terapéutico integra psicodinamismo y herramientas cognitivo-conductuales para comprender patrones, ordenar emociones y construir recursos practicos.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "760px"
@@ -153,7 +153,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Psicodinamico",
+        "text": "Psicodinámico",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -162,7 +162,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Explora historia, vinculos, emociones y patrones que pueden repetirse en la forma de relacionarte contigo y con otras personas.",
+        "text": "Explora historia, vínculos, emociones y patrones que pueden repetirse en la forma de relacionarte contigo y con otras personas.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -230,7 +230,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La terapia no se plantea como solucion rapida. Se construye una ruta de trabajo segun tu contexto, ritmo y necesidades.",
+        "text": "La terapia se construye como una ruta de trabajo según tu contexto, ritmo y necesidades.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -276,7 +276,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Cada proceso se adapta a la persona, sus objetivos y su ritmo, sin prometer resultados inmediatos ni usar lenguaje alarmista.",
+        "text": "Cada proceso se adapta a la persona, sus objetivos y su ritmo, con expectativas realistas y lenguaje claro.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "680px"
@@ -287,7 +287,7 @@
       "id": "enfoque-terapeuticoCtaLink",
       "type": "link",
       "config": {
-        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
@@ -353,7 +353,7 @@
         "id": "enfoqueVisualImage",
         "tag": "image",
         "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/enfoque-terapeutico/section-images/therapeutic-approach-room.jpg",
-        "alt": "Espacio sereno para acompanamiento psicologico profesional",
+        "alt": "Espacio sereno para acompañamiento psicológico profesional",
         "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-cover",
         "width": 1536,
         "height": 1024,

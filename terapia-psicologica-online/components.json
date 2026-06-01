@@ -60,7 +60,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Terapia psicologica online en Mexico",
+        "text": "Terapia psicológica online en México",
         "classes": "ank-m-0 ank-color-linkColor ank-fontSize-0_82rem ank-fontWeight-900 ank-textTransform-uppercase ank-lineHeight-1_2"
       }
     },
@@ -69,7 +69,7 @@
       "type": "text",
       "config": {
         "tag": "h1",
-        "text": "Un espacio profesional para trabajar lo que estas viviendo",
+        "text": "Un espacio profesional para trabajar lo que estás viviendo",
         "classes": "ank-m-0 ank-color-titleColor ank-lineHeight-1_05 ank-fontWeight-800",
         "styles": {
           "maxWidth": "840px",
@@ -83,7 +83,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta psicologica online para adultos y adolescentes desde 15 anos, por llamada o videollamada, con una estructura clara y atencion cercana.",
+        "text": "Consulta psicológica online para adultos y adolescentes desde 15 años, por llamada o videollamada, con una estructura clara y atención cercana.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "760px"
@@ -162,7 +162,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La modalidad online facilita sostener el proceso desde un espacio propio. Antes de cada sesion se cuida que exista privacidad, tiempo suficiente y condiciones adecuadas para conversar.",
+        "text": "La modalidad online facilita sostener el proceso desde un espacio propio. Antes de cada sesión se cuida que exista privacidad, tiempo suficiente y condiciones adecuadas para conversar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -187,7 +187,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Primera sesion",
+        "text": "Primera sesión",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -196,7 +196,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La primera consulta ayuda a entender que esta pasando, resolver dudas sobre la modalidad y definir una forma de trabajo sin prometer resultados inmediatos.",
+        "text": "La primera consulta ayuda a entender qué está pasando, resolver dudas sobre la modalidad y definir una forma de trabajo con objetivos realistas.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -230,7 +230,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Ansiedad, estres, autoestima, relaciones, duelo, cansancio emocional, limites, dependencia emocional y pensamientos recurrentes pueden abordarse desde un proceso profesional.",
+        "text": "Ansiedad, estrés, autoestima, relaciones, duelo, cansancio emocional, límites, dependencia emocional y pensamientos recurrentes pueden abordarse desde un proceso profesional.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -287,7 +287,7 @@
       "id": "terapia-psicologica-onlineCtaLink",
       "type": "link",
       "config": {
-        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
@@ -353,7 +353,7 @@
         "id": "terapiaOnlineVisualImage",
         "tag": "image",
         "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/terapia-psicologica-online/section-images/online-therapy-desk.jpg",
-        "alt": "Espacio privado para una sesion de terapia psicologica online",
+        "alt": "Espacio privado para una sesión de terapia psicológica online",
         "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-cover",
         "width": 1536,
         "height": 1024,

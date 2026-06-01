@@ -55,7 +55,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Roberto Rodriguez Rodriguez",
+        "text": "Roberto Rodríguez Rodríguez",
         "classes": "ank-m-0 ank-color-linkColor ank-fontSize-0_82rem ank-fontWeight-900 ank-textTransform-uppercase ank-lineHeight-1_2"
       }
     },
@@ -64,7 +64,7 @@
       "type": "text",
       "config": {
         "tag": "h1",
-        "text": "Terminos y condiciones",
+        "text": "Términos y condiciones",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_1rem ank-fontSize-md-3_2rem ank-lineHeight-1_05 ank-fontWeight-800",
         "styles": {
           "fontFamily": "Georgia, \"Times New Roman\", serif"
@@ -76,7 +76,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Condiciones generales del sitio y limites del servicio de consulta psicologica online.",
+        "text": "Condiciones generales del sitio y límites del servicio de consulta psicológica online.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -135,7 +135,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Este sitio presenta servicios de consulta psicologica online para adultos y adolescentes desde 15 anos. No sustituye servicios de emergencia, atencion medica urgente ni atencion psiquiatrica.",
+        "text": "Este sitio presenta servicios de consulta psicológica online para adultos y adolescentes desde 15 años. No sustituye servicios de emergencia, atención médica urgente ni atención psiquiátrica.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -169,7 +169,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Los precios son consulta psicologica online por $300 MXN y consulta de especialidad/autismo por $400 MXN. La disponibilidad, modalidad y horario se acuerdan por WhatsApp antes de iniciar.",
+        "text": "Los precios son consulta psicológica online por $300 MXN y consulta de especialidad/autismo por $400 MXN. La disponibilidad, modalidad y horario se acuerdan por WhatsApp antes de iniciar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -203,7 +203,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Si existe riesgo inmediato, crisis o emergencia, se debe buscar apoyo de servicios de emergencia o lineas locales de atencion urgente.",
+        "text": "Si existe riesgo inmediato, crisis o emergencia, se debe buscar apoyo de servicios de emergencia o líneas locales de atención urgente.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     }

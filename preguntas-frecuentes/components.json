@@ -82,7 +82,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Respuestas abiertas y visibles para explicar el proceso sin esconder informacion importante en acordeones o dropdowns.",
+        "text": "Respuestas abiertas y visibles para explicar el proceso de forma clara desde el primer recorrido.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "760px"
@@ -154,7 +154,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Como es la primera sesion",
+        "text": "Cómo es la primera sesión",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -163,7 +163,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Sirve para hablar de lo que estas viviendo, aclarar dudas, revisar si la modalidad online es adecuada y acordar una forma de trabajo.",
+        "text": "Sirve para hablar de lo que estás viviendo, aclarar dudas, revisar si la modalidad online es adecuada y acordar una forma de trabajo.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -197,7 +197,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La consulta se maneja como un espacio profesional y privado. La informacion compartida por canales de contacto se usa para responder solicitudes, agendar y dar seguimiento a la atencion solicitada.",
+        "text": "La consulta se maneja como un espacio profesional y privado. La información compartida por canales de contacto se usa para responder solicitudes, agendar y dar seguimiento a la atención solicitada.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -222,7 +222,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Sustituye urgencias o atencion psiquiatrica?",
+        "text": "¿Qué hago si necesito atención urgente o psiquiátrica?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -231,7 +231,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "No. Este sitio no sustituye servicios de emergencia, atencion medica urgente ni atencion psiquiatrica. Si hay riesgo inmediato, se debe buscar apoyo urgente local.",
+        "text": "Para crisis, riesgo inmediato o atención psiquiátrica urgente, busca apoyo de servicios de emergencia o líneas locales de atención urgente.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -288,7 +288,7 @@
       "id": "preguntas-frecuentesCtaLink",
       "type": "link",
       "config": {
-        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
@@ -330,7 +330,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Si. La atencion psicologica online esta disponible para adolescentes desde 15 anos y adultos. En menores de edad se acuerdan condiciones de consentimiento y acompanamiento antes de iniciar.",
+        "text": "Sí. La atención psicológica online está disponible para adolescentes desde 15 años y adultos. En menores de edad se acuerdan condiciones de consentimiento y acompañamiento antes de iniciar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -355,7 +355,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Como agendo por WhatsApp?",
+        "text": "Cómo agendo por WhatsApp?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -364,7 +364,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Escribe al +52 1 55 4189 2942 con tu nombre, edad y horarios posibles. Puedes explicar el motivo de consulta de forma general y resolver los detalles durante la sesion.",
+        "text": "Escribe al +52 1 55 4189 2942 con tu nombre, edad y horarios posibles. Puedes explicar el motivo de consulta de forma general y resolver los detalles durante la sesión.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     }

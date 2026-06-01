@@ -43,8 +43,8 @@
       "type": "link",
       "config": {
         "href": "/",
-        "text": "Roberto Rodriguez Rodriguez",
-        "ariaLabel": "Roberto Rodriguez Rodriguez",
+        "text": "Roberto Rodríguez Rodríguez",
+        "ariaLabel": "Roberto Rodríguez Rodríguez",
         "classes": "ank-d-block ank-color-titleColor ank-fontSize-1_05rem ank-fontWeight-900 ank-textDecoration-none",
         "target": "_self",
         "styles": {
@@ -145,7 +145,7 @@
       "id": "headerCtaLink",
       "type": "link",
       "config": {
-        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita",
         "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
@@ -161,7 +161,7 @@
       "id": "floatingCta",
       "type": "link",
       "config": {
-        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita",
         "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-flex ank-d-md-none ank-alignItems-center ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-border-1px__solid__successColor ank-fontWeight-900 ank-textDecoration-none ank-textAlign-center",
@@ -228,7 +228,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Roberto Rodriguez Rodriguez",
+        "text": "Roberto Rodríguez Rodríguez",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_1rem ank-fontWeight-900"
       }
     },
@@ -237,7 +237,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Terapia psicologica online en Mexico para adultos y adolescentes desde 15 anos. Agenda por WhatsApp: +52 1 55 4189 2942.",
+        "text": "Terapia psicológica online en México para adultos y adolescentes desde 15 años. Agenda por WhatsApp: +52 1 55 4189 2942.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -246,7 +246,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Este sitio no sustituye atencion de emergencia ni servicios medicos urgentes.",
+        "text": "Este sitio no sustituye atención de emergencia ni servicios médicos urgentes.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -317,8 +317,8 @@
       "type": "link",
       "config": {
         "href": "/terminos",
-        "text": "Terminos y condiciones",
-        "ariaLabel": "Terminos y condiciones",
+        "text": "Términos y condiciones",
+        "ariaLabel": "Términos y condiciones",
         "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
         "target": "_self"
       }

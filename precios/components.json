@@ -82,7 +82,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La informacion de costos se presenta de forma visible para reducir dudas antes de consultar disponibilidad.",
+        "text": "La información de costos se presenta de forma visible para reducir dudas antes de consultar disponibilidad.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "760px"
@@ -123,8 +123,7 @@
         "classes": "ank-display-grid ank-gap-16px",
         "components": [
           "preciosBlock1",
-          "preciosBlock2",
-          "preciosBlock3"
+          "preciosBlock2"
         ],
         "styles": {
           "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 280px), 1fr))"
@@ -152,7 +151,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Consulta psicologica online",
+        "text": "Consulta psicológica online",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -161,7 +160,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta psicologica online: $300 MXN por sesion. La modalidad por llamada o videollamada y el horario se acuerdan al agendar por WhatsApp.",
+        "text": "Consulta psicológica online: $300 MXN por sesión. La modalidad por llamada o videollamada y el horario se acuerdan al agendar por WhatsApp.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -195,41 +194,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta de especialidad/autismo: $400 MXN por sesion. Se agenda revisando pertinencia clinica, modalidad y objetivos de trabajo sin prometer diagnosticos ni resultados.",
-        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
-      }
-    },
-    {
-      "id": "preciosBlock3",
-      "type": "container",
-      "config": {
-        "tag": "article",
-        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
-        "components": [
-          "preciosBlock3Title",
-          "preciosBlock3Body"
-        ],
-        "styles": {
-          "borderRadius": "6px",
-          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
-        }
-      }
-    },
-    {
-      "id": "preciosBlock3Title",
-      "type": "text",
-      "config": {
-        "tag": "h2",
-        "text": "Decision informada",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
-      }
-    },
-    {
-      "id": "preciosBlock3Body",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Los precios no sustituyen una evaluacion profesional ni implican diagnostico, resultado garantizado o atencion de emergencia.",
+        "text": "Consulta de especialidad/autismo: $400 MXN por sesión. Se agenda revisando pertinencia clínica, modalidad y objetivos de trabajo acordados.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -286,7 +251,7 @@
       "id": "preciosCtaLink",
       "type": "link",
       "config": {
-        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicologica%20online.%20Me%20puedes%20compartir%20disponibilidad%3F",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
         "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
