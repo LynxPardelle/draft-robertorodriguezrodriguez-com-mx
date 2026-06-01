@@ -128,7 +128,7 @@
       "identifier": "robertorodriguezrodriguezcommx",
       "name": "Roberto Rodríguez Rodríguez",
       "version": "1.0.0",
-      "description": "Terapia psicológica online en México para adultos y adolescentes desde 15 años, con atención profesional, confidencial y humana."
+      "description": "Terapia psicológica online en México para adultos y adolescentes desde 15 años, con atención profesional por WhatsApp, confidencial y humana."
     },
     "i18n": {
       "defaultLanguage": "es",
@@ -178,7 +178,10 @@
           "terapia psicológica para adolescentes desde 15 años",
           "terapia online para adolescentes México",
           "psicólogo para adultos online",
-          "terapia psicológica por videollamada"
+          "terapia psicológica por WhatsApp",
+          "consulta de especialidad en autismo",
+          "orientación por sospecha de autismo",
+          "psicólogo para autismo online México"
         ]
       },
       "robots": "index,follow,max-image-preview:large"

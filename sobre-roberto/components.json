@@ -239,7 +239,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La consulta se realiza por llamada o videollamada, con acuerdos de privacidad, horario y seguimiento antes de iniciar el proceso.",
+        "text": "La consulta se realiza online por WhatsApp, con acuerdos de privacidad, horario y seguimiento antes de iniciar el proceso.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -264,7 +264,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Atención para 15 años en adelante",
+        "text": "Adultos y adolescentes desde 15 años",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -273,7 +273,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Roberto atiende adultos y adolescentes desde 15 años. En menores de edad se acuerdan condiciones de consentimiento, privacidad y acompañamiento antes de iniciar.",
+        "text": "Roberto atiende adultos y adolescentes desde 15 años. Para adolescentes de 15 a 17 años, se acuerdan consentimiento de madres, padres o tutores, seguimiento y privacidad antes de iniciar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -322,7 +322,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Escribe por WhatsApp para consultar disponibilidad y modalidad de llamada o videollamada.",
+        "text": "Escribe por WhatsApp para consultar disponibilidad de sesión online.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "680px"

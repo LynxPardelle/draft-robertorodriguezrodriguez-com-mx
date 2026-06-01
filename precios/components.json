@@ -165,7 +165,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta psicológica online: $300 MXN por sesión. La modalidad por llamada o videollamada y el horario se acuerdan al agendar por WhatsApp.",
+        "text": "Consulta psicológica online: $300 MXN por sesión. La sesión online por WhatsApp y el horario se acuerdan al agendar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -190,7 +190,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Especialidad/autismo",
+        "text": "Consulta de especialidad en autismo",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -199,7 +199,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Consulta de especialidad/autismo: $400 MXN por sesión. Se agenda revisando pertinencia clínica, modalidad y objetivos de trabajo acordados.",
+        "text": "Consulta para personas con sospecha de autismo que buscan información y orientación hacia evaluación diagnóstica, así como para personas ya diagnosticadas que desean acompañamiento psicológico tomando en cuenta necesidades y preferencias específicas. Costo de referencia: $400 MXN por sesión.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },

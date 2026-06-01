@@ -85,7 +85,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Puedes escribir por WhatsApp al +52 1 55 4189 2942 para consultar disponibilidad y agendar una consulta psicológica online por llamada o videollamada.",
+        "text": "Puedes escribir por WhatsApp al +52 1 55 4189 2942 para consultar disponibilidad y agendar una consulta psicológica online por WhatsApp.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "760px"
@@ -236,7 +236,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La terapia psicológica online está dirigida a adultos y adolescentes desde 15 años en México. La modalidad puede ser por llamada o videollamada.",
+        "text": "La terapia psicológica online está dirigida a adultos y adolescentes desde 15 años en México. Las sesiones online se coordinan por WhatsApp.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },

@@ -130,7 +130,8 @@
           "preguntas-frecuentesBlock2",
           "preguntas-frecuentesBlock3",
           "preguntas-frecuentesBlock4",
-          "preguntas-frecuentesBlock5"
+          "preguntas-frecuentesBlock5",
+          "preguntas-frecuentesBlock6"
         ],
         "styles": {
           "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
@@ -159,7 +160,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Cómo es la primera sesión",
+        "text": "¿Cómo es la primera sesión?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -193,7 +194,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "La terapia es confidencial",
+        "text": "¿La terapia es confidencial?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -285,7 +286,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Escribe por WhatsApp para resolver dudas de disponibilidad, modalidad y costo antes de agendar.",
+        "text": "Escribe por WhatsApp para resolver dudas de disponibilidad, formato online y costo antes de agendar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_6",
         "styles": {
           "maxWidth": "680px"
@@ -331,7 +332,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Atiende adolescentes?",
+        "text": "¿Atiende adolescentes?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -340,7 +341,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Sí. La atención psicológica online está disponible para adolescentes desde 15 años y adultos. En menores de edad se acuerdan condiciones de consentimiento y acompañamiento antes de iniciar.",
+        "text": "Sí. La atención psicológica online está disponible para adultos y adolescentes desde 15 años. Para adolescentes de 15 a 17 años, el proceso inicia con consentimiento de madres, padres o tutores; también se acuerdan seguimiento, privacidad y límites de confidencialidad.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     },
@@ -365,7 +366,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Cómo agendo por WhatsApp?",
+        "text": "¿Cómo agendo por WhatsApp?",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
       }
     },
@@ -375,6 +376,40 @@
       "config": {
         "tag": "p",
         "text": "Escribe al +52 1 55 4189 2942 con tu nombre, edad y horarios posibles. Puedes explicar el motivo de consulta de forma general y resolver los detalles durante la sesión.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "preguntas-frecuentesBlock6",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "preguntas-frecuentesBlock6Title",
+          "preguntas-frecuentesBlock6Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "preguntas-frecuentesBlock6Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "¿Qué es la consulta de especialidad en autismo?",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "preguntas-frecuentesBlock6Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Es un espacio para personas con sospecha de autismo que buscan información y orientación sobre próximos pasos hacia evaluación diagnóstica, y para personas ya diagnosticadas que quieren consulta psicológica considerando necesidades y preferencias específicas.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
       }
     }

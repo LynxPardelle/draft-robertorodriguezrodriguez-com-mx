@@ -18,14 +18,14 @@
       "es": "Terapia psicológica online en México | Roberto Rodríguez"
     },
     "description": {
-      "es": "Consulta psicológica online en México para adultos y adolescentes desde 15 años, con acompañamiento profesional por llamada o videollamada."
+      "es": "Consulta psicológica online en México para adultos y adolescentes desde 15 años, con acompañamiento profesional por WhatsApp."
     },
     "openGraph": {
       "title": {
         "es": "Terapia psicológica online en México | Roberto Rodríguez"
       },
       "description": {
-        "es": "Consulta psicológica online en México para adultos y adolescentes desde 15 años, con acompañamiento profesional por llamada o videollamada."
+        "es": "Consulta psicológica online en México para adultos y adolescentes desde 15 años, con acompañamiento profesional por WhatsApp."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/terapia-psicologica-online/section-images/online-therapy-desk.jpg",
       "url": "https://robertorodriguezrodriguez.com.mx/terapia-psicologica-online",
@@ -37,7 +37,7 @@
         "es": "Terapia psicológica online en México | Roberto Rodríguez"
       },
       "description": {
-        "es": "Consulta psicológica online en México para adultos y adolescentes desde 15 años, con acompañamiento profesional por llamada o videollamada."
+        "es": "Consulta psicológica online en México para adultos y adolescentes desde 15 años, con acompañamiento profesional por WhatsApp."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/terapia-psicologica-online/section-images/online-therapy-desk.jpg",
       "card": "summary_large_image",
@@ -50,7 +50,10 @@
         "psicólogo online México",
         "consulta psicológica online",
         "Roberto Rodríguez Rodríguez",
-        "terapia para adolescentes desde 15 años"
+        "terapia para adolescentes desde 15 años",
+        "consulta de especialidad en autismo",
+        "orientación por sospecha de autismo",
+        "terapia psicológica por WhatsApp"
       ]
     },
     "robots": "index,follow,max-image-preview:large"
@@ -61,7 +64,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Terapia psicológica online en México | Roberto Rodríguez",
-        "description": "Consulta psicológica online en México para adultos y adolescentes desde 15 años, con acompañamiento profesional por llamada o videollamada.",
+        "description": "Consulta psicológica online en México para adultos y adolescentes desde 15 años, con acompañamiento profesional por WhatsApp.",
         "url": "https://robertorodriguezrodriguez.com.mx/terapia-psicologica-online",
         "inLanguage": "es"
       }
