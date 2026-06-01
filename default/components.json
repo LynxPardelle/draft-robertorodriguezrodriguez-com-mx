@@ -1638,7 +1638,7 @@
         "width": 420,
         "height": 420,
         "decoding": "async",
-        "loading": "lazy"
+        "loading": "eager"
       }
     },
     {
@@ -1676,7 +1676,7 @@
         "width": 420,
         "height": 420,
         "decoding": "async",
-        "loading": "lazy"
+        "loading": "eager"
       }
     },
     {
@@ -1714,7 +1714,7 @@
         "width": 420,
         "height": 420,
         "decoding": "async",
-        "loading": "lazy"
+        "loading": "eager"
       }
     },
     {
@@ -1752,7 +1752,7 @@
         "width": 420,
         "height": 420,
         "decoding": "async",
-        "loading": "lazy"
+        "loading": "eager"
       }
     },
     {
@@ -1790,7 +1790,7 @@
         "width": 420,
         "height": 420,
         "decoding": "async",
-        "loading": "lazy"
+        "loading": "eager"
       }
     },
     {
@@ -1828,7 +1828,7 @@
         "width": 420,
         "height": 420,
         "decoding": "async",
-        "loading": "lazy"
+        "loading": "eager"
       }
     },
     {
@@ -1866,7 +1866,7 @@
         "width": 420,
         "height": 420,
         "decoding": "async",
-        "loading": "lazy"
+        "loading": "eager"
       }
     }
   ]
