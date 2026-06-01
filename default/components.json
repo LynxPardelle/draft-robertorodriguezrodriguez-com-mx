@@ -1289,7 +1289,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "La consulta psicologica online tiene un costo de $300 MXN. La consulta de especialidad/autismo tiene un costo de $400 MXN.",
+        "text": "Si. Roberto atiende adolescentes desde 15 anos. En menores de edad, el inicio del proceso considera consentimiento, privacidad y condiciones de acompanamiento acordadas antes de iniciar.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -1323,7 +1323,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Si. Roberto atiende adolescentes desde 15 anos. En menores de edad, el inicio del proceso considera consentimiento, privacidad y condiciones de acompanamiento acordadas antes de iniciar.",
+        "text": "Este servicio no sustituye atencion de emergencia. Si estas en riesgo inmediato o necesitas ayuda urgente, busca apoyo de emergencias o una linea local de atencion urgente.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
