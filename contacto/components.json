@@ -339,11 +339,15 @@
         "tag": "section",
         "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-40px ank-color-textColor ank-bg-bgColor",
         "components": [
+          "contactoVisualBrainDecor",
           "contactoVisualInner"
         ],
         "styles": {
           "paddingTop": "40px",
-          "paddingBottom": "18px"
+          "paddingBottom": "18px",
+          "position": "relative",
+          "overflow": "hidden",
+          "isolation": "isolate"
         },
         "id": "visual"
       }
@@ -444,12 +448,13 @@
           "position": "absolute",
           "pointerEvents": "none",
           "zIndex": "0",
-          "width": "clamp(78px, 10vw, 138px)",
+          "width": "clamp(78px, 9vw, 136px)",
           "aspectRatio": "1 / 1",
-          "opacity": "0.56",
-          "top": "-30px",
-          "right": "clamp(-46px, -4vw, -18px)",
-          "transform": "rotate(8deg)"
+          "opacity": "0.94",
+          "filter": "drop-shadow(0 10px 18px rgba(49,85,70,0.16)) drop-shadow(0 1px 0 rgba(255,255,255,0.85))",
+          "transform": "rotate(8deg)",
+          "right": "max(12px, calc((100vw - 900px) / 2 + 8px))",
+          "top": "clamp(10px, 2vw, 24px)"
         }
       }
     },
@@ -481,12 +486,13 @@
           "position": "absolute",
           "pointerEvents": "none",
           "zIndex": "0",
-          "width": "clamp(76px, 9vw, 128px)",
+          "width": "clamp(52px, 7vw, 108px)",
           "aspectRatio": "1 / 1",
-          "opacity": "0.38",
-          "top": "-24px",
-          "left": "clamp(-42px, -4vw, -16px)",
-          "transform": "rotate(-5deg)"
+          "opacity": "0.90",
+          "filter": "drop-shadow(0 10px 18px rgba(49,85,70,0.16)) drop-shadow(0 1px 0 rgba(255,255,255,0.85))",
+          "transform": "rotate(-5deg)",
+          "left": "max(12px, calc((100vw - 1040px) / 2 - 128px))",
+          "top": "clamp(4px, 1vw, 12px)"
         }
       }
     },
@@ -495,7 +501,7 @@
       "type": "media",
       "config": {
         "tag": "image",
-        "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/mascot-images/brain-checklist.png",
+        "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/mascot-images/brain-tea.png",
         "alt": " ",
         "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-contain",
         "width": 420,
@@ -518,17 +524,56 @@
           "position": "absolute",
           "pointerEvents": "none",
           "zIndex": "0",
-          "width": "clamp(78px, 10vw, 136px)",
+          "width": "clamp(78px, 9vw, 132px)",
           "aspectRatio": "1 / 1",
-          "opacity": "0.64",
-          "bottom": "-36px",
-          "right": "clamp(-42px, -3vw, -16px)",
-          "transform": "rotate(7deg)"
+          "opacity": "0.94",
+          "filter": "drop-shadow(0 10px 18px rgba(49,85,70,0.16)) drop-shadow(0 1px 0 rgba(255,255,255,0.85))",
+          "transform": "rotate(7deg)",
+          "right": "max(12px, calc((100vw - 1040px) / 2 + 8px))",
+          "bottom": "clamp(10px, 2vw, 24px)"
         }
       }
     },
     {
       "id": "contactoCtaBrainDecorImage",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/mascot-images/brain-heart.png",
+        "alt": " ",
+        "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-contain",
+        "width": 420,
+        "height": 420,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "contactoVisualBrainDecor",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-block",
+        "components": [
+          "contactoVisualBrainDecorImage"
+        ],
+        "role": "presentation",
+        "styles": {
+          "position": "absolute",
+          "pointerEvents": "none",
+          "zIndex": "0",
+          "width": "clamp(74px, 8vw, 124px)",
+          "aspectRatio": "1 / 1",
+          "opacity": "0.90",
+          "filter": "drop-shadow(0 10px 18px rgba(49,85,70,0.16)) drop-shadow(0 1px 0 rgba(255,255,255,0.85))",
+          "transform": "rotate(6deg)",
+          "right": "max(12px, calc((100vw - 1040px) / 2 + 8px))",
+          "bottom": "clamp(10px, 2vw, 24px)"
+        }
+      }
+    },
+    {
+      "id": "contactoVisualBrainDecorImage",
       "type": "media",
       "config": {
         "tag": "image",
