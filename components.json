@@ -65,7 +65,8 @@
           "navEnfoque",
           "navSobre",
           "navPrecios",
-          "navPreguntas"
+          "navPreguntas",
+          "navContacto"
         ],
         "ariaLabel": "Navegacion principal"
       }
@@ -119,6 +120,20 @@
         "href": "/preguntas-frecuentes",
         "text": "Preguntas",
         "ariaLabel": "Preguntas",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "navContacto",
+      "type": "link",
+      "config": {
+        "href": "/contacto",
+        "text": "Contacto",
+        "ariaLabel": "Contacto",
         "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
         "target": "_self",
         "styles": {
@@ -248,7 +263,8 @@
           "footerNavEnfoque",
           "footerNavSobre",
           "footerNavPrecios",
-          "footerNavPreguntas"
+          "footerNavPreguntas",
+          "footerNavContact"
         ],
         "ariaLabel": "Rutas principales"
       }
@@ -397,6 +413,17 @@
         "href": "/preguntas-frecuentes",
         "text": "Preguntas",
         "ariaLabel": "Preguntas",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerNavContact",
+      "type": "link",
+      "config": {
+        "href": "/contacto",
+        "text": "Contacto",
+        "ariaLabel": "Contacto",
         "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
         "target": "_self"
       }
