@@ -136,11 +136,13 @@
         "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
         "target": "_blank",
         "styles": {
           "color": "var(--ank-onSuccessColor)",
-          "borderRadius": "999px"
+          "borderRadius": "999px",
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
         },
         "rel": "noopener noreferrer"
       }
@@ -152,10 +154,12 @@
         "href": "#enfoque",
         "text": "Conocer el enfoque",
         "ariaLabel": "Conocer el enfoque",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-999px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
         "target": "_self",
         "styles": {
-          "borderRadius": "999px"
+          "borderRadius": "999px",
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
         }
       }
     },
@@ -1415,10 +1419,12 @@
         "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita por WhatsApp",
         "ariaLabel": "Agendar cita por WhatsApp",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
         "target": "_blank",
         "styles": {
-          "color": "var(--ank-onSuccessColor)"
+          "color": "var(--ank-onSuccessColor)",
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
         },
         "rel": "noopener noreferrer"
       }
@@ -1430,8 +1436,12 @@
         "href": "#precios",
         "text": "Revisar precios",
         "ariaLabel": "Revisar precios",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
-        "target": "_self"
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
+        "target": "_self",
+        "styles": {
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
+        }
       }
     }
   ]

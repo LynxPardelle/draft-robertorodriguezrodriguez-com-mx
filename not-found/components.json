@@ -102,10 +102,12 @@
         "href": "/",
         "text": "Volver al inicio",
         "ariaLabel": "Volver al inicio",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
         "target": "_self",
         "styles": {
-          "color": "var(--ank-onSuccessColor)"
+          "color": "var(--ank-onSuccessColor)",
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
         }
       }
     },
@@ -116,8 +118,12 @@
         "href": "/#contacto",
         "text": "Agendar cita",
         "ariaLabel": "Agendar cita",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
-        "target": "_self"
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__linkColor ank-textAlign-center",
+        "target": "_self",
+        "styles": {
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
+        }
       }
     }
   ]
