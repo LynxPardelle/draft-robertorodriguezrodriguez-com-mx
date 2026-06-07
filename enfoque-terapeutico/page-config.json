@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "pageId": "enfoque-terapeutico",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "enfoque-terapeuticoPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-2-local-draft",
+    "routePurpose": "enfoque-terapeutico"
+  },
+  "seo": {
+    "title": {
+      "es": "Enfoque terapéutico psicodinámico y TCC | Roberto Rodríguez"
+    },
+    "description": {
+      "es": "Enfoque terapéutico integrativo: psicodinamismo y herramientas cognitivo-conductuales para terapia psicológica online."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Enfoque terapéutico psicodinámico y TCC | Roberto Rodríguez"
+      },
+      "description": {
+        "es": "Enfoque terapéutico integrativo: psicodinamismo y herramientas cognitivo-conductuales para terapia psicológica online."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/enfoque-terapeutico/section-images/therapeutic-approach-room.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/enfoque-terapeutico",
+      "type": "website",
+      "image:alt": "Espacio de acompañamiento psicológico profesional"
+    },
+    "twitter": {
+      "title": {
+        "es": "Enfoque terapéutico psicodinámico y TCC | Roberto Rodríguez"
+      },
+      "description": {
+        "es": "Enfoque terapéutico integrativo: psicodinamismo y herramientas cognitivo-conductuales para terapia psicológica online."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/enfoque-terapeutico/section-images/therapeutic-approach-room.jpg",
+      "card": "summary_large_image",
+      "image:alt": "Espacio de acompañamiento psicológico profesional"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/enfoque-terapeutico",
+    "keywords": {
+      "es": [
+        "terapia psicológica online",
+        "psicólogo online México",
+        "consulta psicológica online",
+        "Roberto Rodríguez Rodríguez",
+        "terapia para adolescentes desde 15 años",
+        "consulta de especialidad en autismo",
+        "orientación por sospecha de autismo",
+        "terapia psicológica por WhatsApp"
+      ]
+    },
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Enfoque terapéutico psicodinámico y TCC | Roberto Rodríguez",
+        "description": "Enfoque terapéutico integrativo: psicodinamismo y herramientas cognitivo-conductuales para terapia psicológica online.",
+        "url": "https://robertorodriguezrodriguez.com.mx/enfoque-terapeutico",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido",
+      "contacto"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

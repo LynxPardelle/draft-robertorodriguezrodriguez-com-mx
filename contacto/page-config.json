@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "pageId": "contacto",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "contactoPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-2-local-draft",
+    "routePurpose": "contacto"
+  },
+  "seo": {
+    "title": {
+      "es": "Contacto para consulta psicológica online | Roberto Rodríguez"
+    },
+    "description": {
+      "es": "Contacto para consulta psicológica online con Roberto Rodríguez Rodríguez. Agenda por WhatsApp al +52 1 55 4189 2942."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Contacto para consulta psicológica online | Roberto Rodríguez"
+      },
+      "description": {
+        "es": "Contacto para consulta psicológica online con Roberto Rodríguez Rodríguez. Agenda por WhatsApp al +52 1 55 4189 2942."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/contacto/section-images/appointment-planner.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/contacto",
+      "type": "website",
+      "image:alt": "Agenda para consulta psicológica online por WhatsApp"
+    },
+    "twitter": {
+      "title": {
+        "es": "Contacto para consulta psicológica online | Roberto Rodríguez"
+      },
+      "description": {
+        "es": "Contacto para consulta psicológica online con Roberto Rodríguez Rodríguez. Agenda por WhatsApp al +52 1 55 4189 2942."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/contacto/section-images/appointment-planner.jpg",
+      "card": "summary_large_image",
+      "image:alt": "Agenda para consulta psicológica online por WhatsApp"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/contacto",
+    "keywords": {
+      "es": [
+        "terapia psicológica online",
+        "psicólogo online México",
+        "consulta psicológica online",
+        "Roberto Rodríguez Rodríguez",
+        "terapia para adolescentes desde 15 años",
+        "consulta de especialidad en autismo",
+        "orientación por sospecha de autismo",
+        "terapia psicológica por WhatsApp"
+      ]
+    },
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Contacto para consulta psicológica online | Roberto Rodríguez",
+        "description": "Contacto para consulta psicológica online con Roberto Rodríguez Rodríguez. Agenda por WhatsApp al +52 1 55 4189 2942.",
+        "url": "https://robertorodriguezrodriguez.com.mx/contacto",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido",
+      "contacto"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "pageId": "preguntas-frecuentes",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "preguntas-frecuentesPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-2-local-draft",
+    "routePurpose": "preguntas-frecuentes"
+  },
+  "seo": {
+    "title": {
+      "es": "Preguntas frecuentes sobre terapia online | Roberto Rodríguez"
+    },
+    "description": {
+      "es": "Preguntas frecuentes sobre terapia psicológica online, costos, confidencialidad, adolescentes desde 15 años, consulta de especialidad en autismo y agenda por WhatsApp."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Preguntas frecuentes sobre terapia online | Roberto Rodríguez"
+      },
+      "description": {
+        "es": "Preguntas frecuentes sobre terapia psicológica online, costos, confidencialidad, adolescentes desde 15 años, consulta de especialidad en autismo y agenda por WhatsApp."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/preguntas-frecuentes",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Preguntas frecuentes sobre terapia online | Roberto Rodríguez"
+      },
+      "description": {
+        "es": "Preguntas frecuentes sobre terapia psicológica online, costos, confidencialidad, adolescentes desde 15 años, consulta de especialidad en autismo y agenda por WhatsApp."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/preguntas-frecuentes",
+    "keywords": {
+      "es": [
+        "terapia psicológica online",
+        "psicólogo online México",
+        "consulta psicológica online",
+        "Roberto Rodríguez Rodríguez",
+        "terapia para adolescentes desde 15 años",
+        "consulta de especialidad en autismo",
+        "orientación por sospecha de autismo",
+        "terapia psicológica por WhatsApp"
+      ]
+    },
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Preguntas frecuentes sobre terapia online | Roberto Rodríguez",
+        "description": "Preguntas frecuentes sobre terapia psicológica online, costos, confidencialidad, adolescentes desde 15 años, consulta de especialidad en autismo y agenda por WhatsApp.",
+        "url": "https://robertorodriguezrodriguez.com.mx/preguntas-frecuentes",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido",
+      "contacto"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

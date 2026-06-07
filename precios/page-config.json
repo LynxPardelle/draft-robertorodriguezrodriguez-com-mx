@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "pageId": "precios",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "preciosPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-2-local-draft",
+    "routePurpose": "precios"
+  },
+  "seo": {
+    "title": {
+      "es": "Precios de consulta psicológica online | Roberto Rodríguez"
+    },
+    "description": {
+      "es": "Precios de terapia psicológica online con Roberto Rodríguez: consulta online de $300 MXN y consulta de especialidad en autismo de $400 MXN."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Precios de consulta psicológica online | Roberto Rodríguez"
+      },
+      "description": {
+        "es": "Precios de terapia psicológica online con Roberto Rodríguez: consulta online de $300 MXN y consulta de especialidad en autismo de $400 MXN."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/precios",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Precios de consulta psicológica online | Roberto Rodríguez"
+      },
+      "description": {
+        "es": "Precios de terapia psicológica online con Roberto Rodríguez: consulta online de $300 MXN y consulta de especialidad en autismo de $400 MXN."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/precios",
+    "keywords": {
+      "es": [
+        "terapia psicológica online",
+        "psicólogo online México",
+        "consulta psicológica online",
+        "Roberto Rodríguez Rodríguez",
+        "terapia para adolescentes desde 15 años",
+        "consulta de especialidad en autismo",
+        "orientación por sospecha de autismo",
+        "terapia psicológica por WhatsApp"
+      ]
+    },
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Precios de consulta psicológica online | Roberto Rodríguez",
+        "description": "Precios de terapia psicológica online con Roberto Rodríguez: consulta online de $300 MXN y consulta de especialidad en autismo de $400 MXN.",
+        "url": "https://robertorodriguezrodriguez.com.mx/precios",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido",
+      "contacto"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

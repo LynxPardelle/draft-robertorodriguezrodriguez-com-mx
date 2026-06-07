@@ -14,3 +14,4 @@ This repository follows the secure Zoolanding draft release workflow.
 - Do not commit secrets, tokens, API keys, signed URLs, `.env*`, local logs, PDFs/CVs, private keys, certificates, local databases, credential JSON, local agent state, `ai_notes/`, `findings/`, or `errors-reports/`.
 - Public contact details in draft content are allowed only when they are intentionally client-facing; personal source files, CVs, private photos, identity documents, and raw research stay local-only.
 - Deployment uses GitHub OIDC to assume AWS IAM roles split by repo and environment; do not add long-lived AWS access keys.
+- Roberto does not authorize AI-generated images using his face or likeness. Visual mascot work should use stock images, abstract icons, or the brain mascot prompt template in `docs/brain-mascot-prompt-template.md`.

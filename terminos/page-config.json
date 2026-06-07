@@ -15,17 +15,17 @@
   },
   "seo": {
     "title": {
-      "es": "Terminos y condiciones | Roberto Rodriguez Rodriguez"
+      "es": "Términos y condiciones | Roberto Rodríguez Rodríguez"
     },
     "description": {
-      "es": "Condiciones generales del sitio y limites del servicio de consulta psicologica online."
+      "es": "Términos y condiciones del sitio de Roberto Rodríguez Rodríguez para consulta psicológica online en México."
     },
     "openGraph": {
       "title": {
-        "es": "Terminos y condiciones | Roberto Rodriguez Rodriguez"
+        "es": "Términos y condiciones | Roberto Rodríguez Rodríguez"
       },
       "description": {
-        "es": "Condiciones generales del sitio y limites del servicio de consulta psicologica online."
+        "es": "Términos y condiciones del sitio de Roberto Rodríguez Rodríguez para consulta psicológica online en México."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "url": "https://robertorodriguezrodriguez.com.mx/terminos",
@@ -33,10 +33,10 @@
     },
     "twitter": {
       "title": {
-        "es": "Terminos y condiciones | Roberto Rodriguez Rodriguez"
+        "es": "Términos y condiciones | Roberto Rodríguez Rodríguez"
       },
       "description": {
-        "es": "Condiciones generales del sitio y limites del servicio de consulta psicologica online."
+        "es": "Términos y condiciones del sitio de Roberto Rodríguez Rodríguez para consulta psicológica online en México."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "card": "summary_large_image"
@@ -49,8 +49,8 @@
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Terminos y condiciones | Roberto Rodriguez Rodriguez",
-        "description": "Condiciones generales del sitio y limites del servicio de consulta psicologica online.",
+        "name": "Términos y condiciones | Roberto Rodríguez Rodríguez",
+        "description": "Términos y condiciones del sitio de Roberto Rodríguez Rodríguez para consulta psicológica online en México.",
         "url": "https://robertorodriguezrodriguez.com.mx/terminos",
         "inLanguage": "es"
       }

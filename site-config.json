@@ -10,6 +10,13 @@
     "terapiapsicologicamexico.com",
     "terapiapsicologicamexico.com.mx"
   ],
+  "environments": {
+    "test": {
+      "aliases": [
+        "test.robertorodriguezrodriguez.zoolandingpage.com.mx"
+      ]
+    }
+  },
   "defaultPageId": "default",
   "notFoundPageId": "not-found",
   "routes": [
@@ -19,6 +26,36 @@
       "label": "Inicio"
     },
     {
+      "path": "/terapia-psicologica-online",
+      "pageId": "terapia-psicologica-online",
+      "label": "Terapia psicológica online"
+    },
+    {
+      "path": "/enfoque-terapeutico",
+      "pageId": "enfoque-terapeutico",
+      "label": "Enfoque terapéutico"
+    },
+    {
+      "path": "/sobre-roberto",
+      "pageId": "sobre-roberto",
+      "label": "Sobre Roberto"
+    },
+    {
+      "path": "/precios",
+      "pageId": "precios",
+      "label": "Precios"
+    },
+    {
+      "path": "/preguntas-frecuentes",
+      "pageId": "preguntas-frecuentes",
+      "label": "Preguntas frecuentes"
+    },
+    {
+      "path": "/contacto",
+      "pageId": "contacto",
+      "label": "Contacto"
+    },
+    {
       "path": "/privacidad",
       "pageId": "privacidad",
       "label": "Aviso de privacidad"
@@ -26,12 +63,12 @@
     {
       "path": "/terminos",
       "pageId": "terminos",
-      "label": "Terminos y condiciones"
+      "label": "Términos y condiciones"
     },
     {
       "path": "/404",
       "pageId": "not-found",
-      "label": "Pagina no encontrada"
+      "label": "Página no encontrada"
     }
   ],
   "sitemap": {
@@ -89,9 +126,9 @@
     },
     "appIdentity": {
       "identifier": "robertorodriguezrodriguezcommx",
-      "name": "Roberto Rodriguez Rodriguez",
+      "name": "Roberto Rodríguez Rodríguez",
       "version": "1.0.0",
-      "description": "Terapia psicologica online en Mexico con atencion profesional, confidencial y humana."
+      "description": "Terapia psicológica online en México para adultos y adolescentes desde 15 años, con atención profesional por WhatsApp, confidencial y humana."
     },
     "i18n": {
       "defaultLanguage": "es",
@@ -106,36 +143,45 @@
       "themeColor": "#315546"
     },
     "seo": {
-      "siteName": "Roberto Rodriguez Rodriguez",
-      "title": "Terapia psicologica online en Mexico | Roberto Rodriguez",
-      "description": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes en Mexico. Consulta disponibilidad con Roberto Rodriguez Rodriguez.",
+      "siteName": "Roberto Rodríguez Rodríguez",
+      "title": "Terapia psicológica online en México | Roberto Rodríguez",
+      "description": "Acompañamiento psicológico online, confidencial y humano para adultos y adolescentes desde 15 años en México. Agenda por WhatsApp con Roberto Rodríguez Rodríguez.",
       "canonicalOrigin": "https://robertorodriguezrodriguez.com.mx",
       "enforceCanonicalHost": true,
       "forceHttps": true,
       "defaultImage": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "openGraph": {
         "type": "website",
-        "site_name": "Roberto Rodriguez Rodriguez",
+        "site_name": "Roberto Rodríguez Rodríguez",
         "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
         "image:type": "image/jpeg",
         "image:width": "1400",
         "image:height": "933",
-        "image:alt": "Espacio tranquilo para terapia psicologica online"
+        "image:alt": "Espacio tranquilo para terapia psicológica online"
       },
       "twitter": {
         "card": "summary_large_image",
         "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
-        "image:alt": "Espacio tranquilo para terapia psicologica online"
+        "image:alt": "Espacio tranquilo para terapia psicológica online"
       },
       "keywords": {
         "es": [
-          "terapia psicologica online",
-          "terapia psicologica en Mexico",
-          "psicologo online Mexico",
-          "consulta psicologica online",
+          "terapia psicológica online",
+          "terapia psicológica en México",
+          "psicólogo online México",
+          "consulta psicológica online",
+          "psicólogo clínico online",
           "terapia para ansiedad",
-          "terapia para estres",
-          "psicologo clinico online"
+          "terapia para estrés",
+          "enfoque psicodinámico",
+          "terapia cognitivo conductual",
+          "terapia psicológica para adolescentes desde 15 años",
+          "terapia online para adolescentes México",
+          "psicólogo para adultos online",
+          "terapia psicológica por WhatsApp",
+          "consulta de especialidad en autismo",
+          "orientación por sospecha de autismo",
+          "psicólogo para autismo online México"
         ]
       },
       "robots": "index,follow,max-image-preview:large"

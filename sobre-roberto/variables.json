@@ -1,48 +1,8 @@
 {
   "version": 1,
   "domain": "robertorodriguezrodriguez.com.mx",
-  "pageId": "allPages",
+  "pageId": "sobre-roberto",
   "variables": {
-    "navigation": [
-      {
-        "id": "navHome",
-        "label": "Inicio",
-        "value": "/"
-      },
-      {
-        "id": "navTerapiaOnline",
-        "label": "Terapia online",
-        "value": "/terapia-psicologica-online"
-      },
-      {
-        "id": "navEnfoque",
-        "label": "Enfoque",
-        "value": "/enfoque-terapeutico"
-      },
-      {
-        "id": "navSobre",
-        "label": "Sobre Roberto",
-        "value": "/sobre-roberto"
-      },
-      {
-        "id": "navPrecios",
-        "label": "Precios",
-        "value": "/precios"
-      },
-      {
-        "id": "navPreguntas",
-        "label": "Preguntas",
-        "value": "/preguntas-frecuentes"
-      },
-      {
-        "id": "navContacto",
-        "label": "Contacto",
-        "value": "/contacto"
-      }
-    ],
-    "brand": {
-      "displayName": "Roberto Rodríguez Rodríguez"
-    },
     "assets": {
       "portraitUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/profile-images/roberto-profile-portrait.jpeg",
       "supportImageUrl": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/default/section-images/calm-online-therapy-workspace.jpg",

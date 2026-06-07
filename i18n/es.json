@@ -6,14 +6,16 @@
   "dictionary": {
     "nav": {
       "home": "Inicio",
-      "process": "Proceso",
+      "therapyOnline": "Terapia online",
       "approach": "Enfoque",
+      "about": "Sobre Roberto",
       "prices": "Precios",
-      "questions": "Preguntas"
+      "questions": "Preguntas",
+      "contact": "Contacto"
     },
     "footer": {
       "privacyLabel": "Aviso de privacidad",
-      "termsLabel": "Terminos y condiciones"
+      "termsLabel": "Términos y condiciones"
     }
   }
 }

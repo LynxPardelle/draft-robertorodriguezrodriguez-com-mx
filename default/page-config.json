@@ -15,17 +15,17 @@
   },
   "seo": {
     "title": {
-      "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
+      "es": "Terapia psicológica online en México | Roberto Rodríguez"
     },
     "description": {
-      "es": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes en Mexico. Consulta disponibilidad con Roberto Rodriguez Rodriguez."
+      "es": "Acompañamiento psicológico online, confidencial y humano para adultos y adolescentes desde 15 años en México. Agenda por WhatsApp con Roberto Rodríguez Rodríguez."
     },
     "openGraph": {
       "title": {
-        "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
+        "es": "Terapia psicológica online en México | Roberto Rodríguez"
       },
       "description": {
-        "es": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes en Mexico."
+        "es": "Acompañamiento psicológico online, confidencial y humano para adultos y adolescentes desde 15 años en México. Agenda por WhatsApp con Roberto Rodríguez Rodríguez."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "url": "https://robertorodriguezrodriguez.com.mx/",
@@ -33,10 +33,10 @@
     },
     "twitter": {
       "title": {
-        "es": "Terapia psicologica online en Mexico | Roberto Rodriguez"
+        "es": "Terapia psicológica online en México | Roberto Rodríguez"
       },
       "description": {
-        "es": "Acompanamiento psicologico online, confidencial y humano para adultos y adolescentes en Mexico."
+        "es": "Acompañamiento psicológico online, confidencial y humano para adultos y adolescentes desde 15 años en México. Agenda por WhatsApp con Roberto Rodríguez Rodríguez."
       },
       "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
       "card": "summary_large_image"
@@ -44,12 +44,16 @@
     "canonical": "https://robertorodriguezrodriguez.com.mx/",
     "keywords": {
       "es": [
-        "terapia psicologica online",
-        "terapia psicologica en Mexico",
-        "psicologo online Mexico",
-        "consulta psicologica online",
+        "terapia psicológica online",
+        "terapia psicológica en México",
+        "psicólogo online México",
+        "consulta psicológica online",
         "terapia para ansiedad",
-        "terapia para estres"
+        "terapia para estrés",
+        "terapia para adolescentes desde 15 años",
+        "consulta de especialidad en autismo",
+        "orientación por sospecha de autismo",
+        "terapia psicológica por WhatsApp"
       ]
     },
     "robots": "index,follow,max-image-preview:large"
@@ -59,14 +63,27 @@
       {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
-        "name": "Roberto Rodriguez Rodriguez",
+        "name": "Roberto Rodríguez Rodríguez",
         "url": "https://robertorodriguezrodriguez.com.mx/",
         "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/profile-images/roberto-profile-portrait.jpeg",
-        "description": "Terapia psicologica online, confidencial y humana para adultos y adolescentes en Mexico.",
-        "areaServed": "Mexico",
+        "description": "Acompañamiento psicológico online, confidencial y humano para adultos y adolescentes desde 15 años en México. Agenda por WhatsApp con Roberto Rodríguez Rodríguez.",
+        "areaServed": "México",
         "availableLanguage": "Spanish",
         "priceRange": "$300-$400 MXN",
-        "serviceType": "Terapia psicologica online"
+        "serviceType": "Terapia psicológica online",
+        "telephone": "+52 1 55 4189 2942",
+        "email": "r.rodriguez_r@outlook.com",
+        "serviceAudience": {
+          "@type": "Audience",
+          "audienceType": "Adultos y adolescentes desde 15 años"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+52 1 55 4189 2942",
+          "contactType": "appointments",
+          "availableLanguage": "Spanish",
+          "areaServed": "MX"
+        }
       }
     ]
   },

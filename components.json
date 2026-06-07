@@ -19,9 +19,22 @@
       "type": "container",
       "config": {
         "tag": "header",
-        "classes": "ank-position-sticky ank-top-0 ank-zIndex-1200 ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-12px ank-bg-bgColorOPA__0_96 ank-borderBottom-1px ank-borderColor-secondaryBgColor ank-backdropFilter-blurSD8pxED",
+        "classes": "ank-position-sticky ank-top-0 ank-zIndex-1200 ank-width-100per ank-display-flex ank-flexDirection-column ank-alignItems-center ank-paddingInline-16px ank-paddingBlock-12px ank-bg-bgColorOPA__0_96 ank-borderBottom-1px ank-borderColor-secondaryBgColor ank-backdropFilter-blurSD8pxED",
         "components": [
-          "headerInner"
+          "headerNavScope"
+        ]
+      }
+    },
+    {
+      "id": "headerNavScope",
+      "type": "interaction-scope",
+      "config": {
+        "scopeId": "mobileNavigation",
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-flex ank-flexDirection-column ank-alignItems-center",
+        "components": [
+          "headerInner",
+          "headerMobileMenuMount"
         ]
       }
     },
@@ -30,11 +43,11 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-gap-16px ank-flexWrap-wrap",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-gap-12px ank-gap-md-16px",
         "components": [
           "brandLink",
-          "headerNav",
-          "headerCtaLink"
+          "headerDesktopCluster",
+          "headerMobileActions"
         ]
       }
     },
@@ -43,14 +56,26 @@
       "type": "link",
       "config": {
         "href": "/",
-        "text": "Roberto Rodriguez Rodriguez",
-        "ariaLabel": "Roberto Rodriguez Rodriguez",
-        "classes": "ank-d-block ank-color-titleColor ank-fontSize-1_05rem ank-fontWeight-900 ank-textDecoration-none",
+        "text": "Roberto Rodríguez Rodríguez",
+        "ariaLabel": "Roberto Rodríguez Rodríguez",
+        "classes": "ank-d-block ank-color-titleColor ank-fontSize-1rem ank-fontWeight-900 ank-textDecoration-none",
         "target": "_self",
         "styles": {
-          "maxWidth": "260px",
-          "lineHeight": "1.2"
+          "maxWidth": "min(62vw, 260px)",
+          "lineHeight": "1.15"
         }
+      }
+    },
+    {
+      "id": "headerDesktopCluster",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-d-none ank-d-md-flex ank-alignItems-center ank-gap-14px ank-marginInlineStart-auto",
+        "components": [
+          "headerNav",
+          "headerCtaLink"
+        ]
       }
     },
     {
@@ -58,15 +83,17 @@
       "type": "container",
       "config": {
         "tag": "nav",
-        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-8px ank-alignItems-center",
+        "classes": "ank-d-none ank-d-md-flex ank-flexWrap-wrap ank-gap-8px ank-alignItems-center",
         "components": [
           "navHome",
-          "navProceso",
+          "navTerapiaOnline",
           "navEnfoque",
+          "navSobre",
           "navPrecios",
-          "navPreguntas"
+          "navPreguntas",
+          "navContacto"
         ],
-        "ariaLabel": "Navegacion principal"
+        "ariaLabel": "Navegación principal"
       }
     },
     {
@@ -84,24 +111,10 @@
       }
     },
     {
-      "id": "navProceso",
-      "type": "link",
-      "config": {
-        "href": "/#proceso",
-        "text": "Proceso",
-        "ariaLabel": "Proceso",
-        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self",
-        "styles": {
-          "borderRadius": "6px"
-        }
-      }
-    },
-    {
       "id": "navEnfoque",
       "type": "link",
       "config": {
-        "href": "/#enfoque",
+        "href": "/enfoque-terapeutico",
         "text": "Enfoque",
         "ariaLabel": "Enfoque",
         "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
@@ -115,7 +128,7 @@
       "id": "navPrecios",
       "type": "link",
       "config": {
-        "href": "/#precios",
+        "href": "/precios",
         "text": "Precios",
         "ariaLabel": "Precios",
         "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
@@ -129,9 +142,23 @@
       "id": "navPreguntas",
       "type": "link",
       "config": {
-        "href": "/#preguntas",
+        "href": "/preguntas-frecuentes",
         "text": "Preguntas",
         "ariaLabel": "Preguntas",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "navContacto",
+      "type": "link",
+      "config": {
+        "href": "/contacto",
+        "text": "Contacto",
+        "ariaLabel": "Contacto",
         "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
         "target": "_self",
         "styles": {
@@ -143,14 +170,205 @@
       "id": "headerCtaLink",
       "type": "link",
       "config": {
-        "href": "/#contacto",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita",
-        "ariaLabel": "Agendar cita",
-        "classes": "ank-display-inline-flex ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
-        "target": "_self",
+        "ariaLabel": "Agendar cita por WhatsApp",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "target": "_blank",
         "styles": {
           "whiteSpace": "normal",
+          "color": "var(--ank-onSuccessColor)",
+          "maxWidth": "100%"
+        },
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "id": "headerMobileActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-d-md-none ank-alignItems-center ank-gap-10px",
+        "components": [
+          "mobileMenuOpenButton",
+          "mobileMenuCloseButton"
+        ]
+      }
+    },
+    {
+      "id": "mobileMenuOpenButton",
+      "type": "button",
+      "condition": "all:scopeNeq,values.mobileMenuOpen,open",
+      "eventInstructions": "setScopeValue:mobileMenuOpen,open;trackEvent:nav_click,navigation,mobile_menu_open,location,header",
+      "config": {
+        "label": "",
+        "ariaLabel": "Abrir menú de navegación",
+        "ariaExpanded": false,
+        "ariaHaspopup": true,
+        "ariaControls": "mobile-primary-navigation",
+        "icon": "menu",
+        "iconPosition": "before",
+        "iconClasses": "ank-width-1_2rem ank-height-1_2rem ank-fontSize-1_2rem",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-44px ank-height-44px ank-padding-0 ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-titleColor ank-border-1px__solid__secondaryBgColor ank-fontWeight-900 ank-cursor-pointer ank-textAlign-center",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "mobileMenuCloseButton",
+      "type": "button",
+      "condition": "all:scopeEq,values.mobileMenuOpen,open",
+      "eventInstructions": "setScopeValue:mobileMenuOpen,closed;trackEvent:nav_click,navigation,mobile_menu_close,location,header",
+      "config": {
+        "label": "",
+        "ariaLabel": "Cerrar menú de navegación",
+        "ariaExpanded": true,
+        "ariaHaspopup": true,
+        "ariaControls": "mobile-primary-navigation",
+        "icon": "menu",
+        "iconPosition": "before",
+        "iconClasses": "ank-width-1_2rem ank-height-1_2rem ank-fontSize-1_2rem",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-44px ank-height-44px ank-padding-0 ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-border-1px__solid__successColor ank-fontWeight-900 ank-cursor-pointer ank-textAlign-center",
+        "styles": {
+          "borderRadius": "6px",
           "color": "var(--ank-onSuccessColor)"
+        }
+      }
+    },
+    {
+      "id": "headerMobileMenuMount",
+      "type": "container",
+      "condition": "all:scopeEq,values.mobileMenuOpen,open",
+      "config": {
+        "tag": "div",
+        "classes": "ank-d-md-none ank-width-100per ank-maxWidth-1180px",
+        "components": [
+          "mobileNavLinks"
+        ],
+        "id": "mobile-menu-anchor"
+      }
+    },
+    {
+      "id": "mobileNavLinks",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "ariaLabel": "Navegación móvil",
+        "classes": "ank-display-flex ank-d-md-none ank-flexDirection-column ank-gap-8px ank-marginTop-10px ank-paddingTop-10px ank-paddingBottom-2px ank-borderTop-1px ank-borderColor-secondaryBgColor",
+        "components": [
+          "mobileNavHome",
+          "mobileNavTerapiaOnline",
+          "mobileNavEnfoque",
+          "mobileNavSobre",
+          "mobileNavPrecios",
+          "mobileNavPreguntas",
+          "mobileNavContacto"
+        ]
+      }
+    },
+    {
+      "id": "mobileNavHome",
+      "type": "link",
+      "eventInstructions": "setScopeValue:mobileMenuOpen,closed;trackEvent:nav_click,navigation,/,href,/,location,mobile_menu",
+      "config": {
+        "href": "/",
+        "text": "Inicio",
+        "ariaLabel": "Inicio",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-width-100per ank-paddingInline-14px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-fontSize-0_95rem ank-textDecoration-none ank-border-1px__solid__secondaryBgColor",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "mobileNavTerapiaOnline",
+      "type": "link",
+      "eventInstructions": "setScopeValue:mobileMenuOpen,closed;trackEvent:nav_click,navigation,/terapia-psicologica-online,href,/terapia-psicologica-online,location,mobile_menu",
+      "config": {
+        "href": "/terapia-psicologica-online",
+        "text": "Terapia online",
+        "ariaLabel": "Terapia online",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-width-100per ank-paddingInline-14px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-fontSize-0_95rem ank-textDecoration-none ank-border-1px__solid__secondaryBgColor",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "mobileNavEnfoque",
+      "type": "link",
+      "eventInstructions": "setScopeValue:mobileMenuOpen,closed;trackEvent:nav_click,navigation,/enfoque-terapeutico,href,/enfoque-terapeutico,location,mobile_menu",
+      "config": {
+        "href": "/enfoque-terapeutico",
+        "text": "Enfoque",
+        "ariaLabel": "Enfoque",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-width-100per ank-paddingInline-14px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-fontSize-0_95rem ank-textDecoration-none ank-border-1px__solid__secondaryBgColor",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "mobileNavSobre",
+      "type": "link",
+      "eventInstructions": "setScopeValue:mobileMenuOpen,closed;trackEvent:nav_click,navigation,/sobre-roberto,href,/sobre-roberto,location,mobile_menu",
+      "config": {
+        "href": "/sobre-roberto",
+        "text": "Sobre Roberto",
+        "ariaLabel": "Sobre Roberto",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-width-100per ank-paddingInline-14px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-fontSize-0_95rem ank-textDecoration-none ank-border-1px__solid__secondaryBgColor",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "mobileNavPrecios",
+      "type": "link",
+      "eventInstructions": "setScopeValue:mobileMenuOpen,closed;trackEvent:nav_click,navigation,/precios,href,/precios,location,mobile_menu",
+      "config": {
+        "href": "/precios",
+        "text": "Precios",
+        "ariaLabel": "Precios",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-width-100per ank-paddingInline-14px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-fontSize-0_95rem ank-textDecoration-none ank-border-1px__solid__secondaryBgColor",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "mobileNavPreguntas",
+      "type": "link",
+      "eventInstructions": "setScopeValue:mobileMenuOpen,closed;trackEvent:nav_click,navigation,/preguntas-frecuentes,href,/preguntas-frecuentes,location,mobile_menu",
+      "config": {
+        "href": "/preguntas-frecuentes",
+        "text": "Preguntas",
+        "ariaLabel": "Preguntas",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-width-100per ank-paddingInline-14px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-fontSize-0_95rem ank-textDecoration-none ank-border-1px__solid__secondaryBgColor",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "mobileNavContacto",
+      "type": "link",
+      "eventInstructions": "setScopeValue:mobileMenuOpen,closed;trackEvent:nav_click,navigation,/contacto,href,/contacto,location,mobile_menu",
+      "config": {
+        "href": "/contacto",
+        "text": "Contacto",
+        "ariaLabel": "Contacto",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-width-100per ank-paddingInline-14px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-fontSize-0_95rem ank-textDecoration-none ank-border-1px__solid__secondaryBgColor",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
         }
       }
     },
@@ -158,11 +376,11 @@
       "id": "floatingCta",
       "type": "link",
       "config": {
-        "href": "/#contacto",
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
         "text": "Agendar cita",
-        "ariaLabel": "Agendar cita",
-        "classes": "ank-display-flex ank-d-md-none ank-alignItems-center ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-border-1px__solid__successColor ank-fontWeight-900 ank-textDecoration-none ank-textAlign-center",
-        "target": "_self",
+        "ariaLabel": "Agendar cita por WhatsApp",
+        "classes": "ank-d-block ank-d-md-none ank-alignItems-center ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-onSuccessColor ank-border-1px__solid__successColor ank-fontWeight-900 ank-textDecoration-none ank-textAlign-center",
+        "target": "_blank",
         "styles": {
           "position": "fixed",
           "right": "16px",
@@ -170,8 +388,11 @@
           "zIndex": "1400",
           "minHeight": "48px",
           "boxShadow": "0 14px 30px rgba(49,85,70,0.28)",
-          "color": "var(--ank-onSuccessColor)"
-        }
+          "color": "var(--ank-onSuccessColor)",
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
+        },
+        "rel": "noopener noreferrer"
       }
     },
     {
@@ -184,7 +405,8 @@
           "footerInner"
         ],
         "styles": {
-          "borderTop": "1px solid var(--ank-secondaryBgColor)"
+          "borderTop": "1px solid var(--ank-secondaryBgColor)",
+          "flexShrink": "0"
         },
         "id": "site-footer"
       }
@@ -201,7 +423,8 @@
           "footerLegalLinks"
         ],
         "styles": {
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 250px), 1fr))"
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 250px), 1fr))",
+          "minWidth": "0"
         }
       }
     },
@@ -223,7 +446,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Roberto Rodriguez Rodriguez",
+        "text": "Roberto Rodríguez Rodríguez",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_1rem ank-fontWeight-900"
       }
     },
@@ -232,7 +455,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Terapia psicologica online en Mexico con atencion profesional, confidencial y humana.",
+        "text": "Terapia psicológica online en México para adultos y adolescentes desde 15 años. Agenda por WhatsApp: +52 1 55 4189 2942. Correo: r.rodriguez_r@outlook.com.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -241,7 +464,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Este sitio no sustituye atencion de emergencia ni servicios medicos urgentes.",
+        "text": "Este sitio no sustituye atención de emergencia ni servicios médicos urgentes.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_92rem ank-lineHeight-1_5"
       }
     },
@@ -253,11 +476,13 @@
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px",
         "components": [
           "footerNavTitle",
-          "footernavHome",
-          "footernavProceso",
-          "footernavEnfoque",
-          "footernavPrecios",
-          "footernavPreguntas"
+          "footerNavHome",
+          "footerNavTerapiaOnline",
+          "footerNavEnfoque",
+          "footerNavSobre",
+          "footerNavPrecios",
+          "footerNavPreguntas",
+          "footerNavContact"
         ],
         "ariaLabel": "Rutas principales"
       }
@@ -269,61 +494,6 @@
         "tag": "p",
         "text": "Rutas principales",
         "classes": "ank-m-0 ank-color-titleColor ank-fontWeight-900"
-      }
-    },
-    {
-      "id": "footernavHome",
-      "type": "link",
-      "config": {
-        "href": "/",
-        "text": "Inicio",
-        "ariaLabel": "Inicio",
-        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self"
-      }
-    },
-    {
-      "id": "footernavProceso",
-      "type": "link",
-      "config": {
-        "href": "/#proceso",
-        "text": "Proceso",
-        "ariaLabel": "Proceso",
-        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self"
-      }
-    },
-    {
-      "id": "footernavEnfoque",
-      "type": "link",
-      "config": {
-        "href": "/#enfoque",
-        "text": "Enfoque",
-        "ariaLabel": "Enfoque",
-        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self"
-      }
-    },
-    {
-      "id": "footernavPrecios",
-      "type": "link",
-      "config": {
-        "href": "/#precios",
-        "text": "Precios",
-        "ariaLabel": "Precios",
-        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self"
-      }
-    },
-    {
-      "id": "footernavPreguntas",
-      "type": "link",
-      "config": {
-        "href": "/#preguntas",
-        "text": "Preguntas",
-        "ariaLabel": "Preguntas",
-        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
-        "target": "_self"
       }
     },
     {
@@ -365,8 +535,113 @@
       "type": "link",
       "config": {
         "href": "/terminos",
-        "text": "Terminos y condiciones",
-        "ariaLabel": "Terminos y condiciones",
+        "text": "Términos y condiciones",
+        "ariaLabel": "Términos y condiciones",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerNavHome",
+      "type": "link",
+      "config": {
+        "href": "/",
+        "text": "Inicio",
+        "ariaLabel": "Inicio",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "navTerapiaOnline",
+      "type": "link",
+      "config": {
+        "href": "/terapia-psicologica-online",
+        "text": "Terapia online",
+        "ariaLabel": "Terapia online",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "footerNavTerapiaOnline",
+      "type": "link",
+      "config": {
+        "href": "/terapia-psicologica-online",
+        "text": "Terapia online",
+        "ariaLabel": "Terapia online",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerNavEnfoque",
+      "type": "link",
+      "config": {
+        "href": "/enfoque-terapeutico",
+        "text": "Enfoque",
+        "ariaLabel": "Enfoque",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "navSobre",
+      "type": "link",
+      "config": {
+        "href": "/sobre-roberto",
+        "text": "Sobre Roberto",
+        "ariaLabel": "Sobre Roberto",
+        "classes": "ank-display-inline-flex ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTextColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self",
+        "styles": {
+          "borderRadius": "6px"
+        }
+      }
+    },
+    {
+      "id": "footerNavSobre",
+      "type": "link",
+      "config": {
+        "href": "/sobre-roberto",
+        "text": "Sobre Roberto",
+        "ariaLabel": "Sobre Roberto",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerNavPrecios",
+      "type": "link",
+      "config": {
+        "href": "/precios",
+        "text": "Precios",
+        "ariaLabel": "Precios",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerNavPreguntas",
+      "type": "link",
+      "config": {
+        "href": "/preguntas-frecuentes",
+        "text": "Preguntas",
+        "ariaLabel": "Preguntas",
+        "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
+        "target": "_self"
+      }
+    },
+    {
+      "id": "footerNavContact",
+      "type": "link",
+      "config": {
+        "href": "/contacto",
+        "text": "Contacto",
+        "ariaLabel": "Contacto",
         "classes": "ank-d-block ank-color-linkColor ank-fontWeight-800 ank-textDecoration-none",
         "target": "_self"
       }

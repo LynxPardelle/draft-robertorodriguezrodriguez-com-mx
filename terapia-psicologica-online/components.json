@@ -1,0 +1,554 @@
+{
+  "version": 1,
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "pageId": "terapia-psicologica-online",
+  "components": [
+    {
+      "id": "terapia-psicologica-onlinePage",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "classes": "ank-display-flex ank-flexDirection-column ank-bg-bgColor ank-color-textColor",
+        "components": [
+          "terapia-psicologica-onlineHero",
+          "terapiaOnlineVisualSection",
+          "terapia-psicologica-onlineContent",
+          "terapia-psicologica-onlineCta"
+        ],
+        "styles": {
+          "fontFamily": "Aptos, \"Segoe UI\", sans-serif",
+          "minHeight": "calc(100vh - 260px)"
+        },
+        "id": "main-content",
+        "role": "main",
+        "tabindex": -1
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineHero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-56px ank-color-textColor ank-bg-secondaryBgColor",
+        "components": [
+          "terapiaOnlineHeroBrainDecor",
+          "terapia-psicologica-onlineHeroInner"
+        ],
+        "styles": {
+          "paddingBlock": "64px",
+          "position": "relative",
+          "overflow": "hidden",
+          "isolation": "isolate"
+        },
+        "id": "home"
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineHeroInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-grid ank-gap-16px ank-textAlign-center",
+        "components": [
+          "terapia-psicologica-onlineEyebrow",
+          "terapia-psicologica-onlineTitle",
+          "terapia-psicologica-onlineLead"
+        ],
+        "styles": {
+          "maxWidth": "900px",
+          "justifyItems": "stretch",
+          "gridTemplateColumns": "minmax(0, 1fr)",
+          "minWidth": "0",
+          "position": "relative",
+          "zIndex": "1"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineEyebrow",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Terapia psicológica online en México",
+        "classes": "ank-m-0 ank-color-linkColor ank-fontSize-0_82rem ank-fontWeight-900 ank-textTransform-uppercase ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineTitle",
+      "type": "text",
+      "config": {
+        "tag": "h1",
+        "text": "Un espacio profesional para trabajar lo que estás viviendo",
+        "classes": "ank-m-0 ank-color-titleColor ank-lineHeight-1_05 ank-fontWeight-800",
+        "styles": {
+          "maxWidth": "840px",
+          "fontFamily": "Georgia, \"Times New Roman\", serif"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineLead",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Consulta psicológica online para adultos y adolescentes desde 15 años por WhatsApp, con una estructura clara y atención cercana.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-lineHeight-1_6",
+        "styles": {
+          "maxWidth": "760px"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineContent",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-56px ank-color-textColor ank-bg-bgColor",
+        "components": [
+          "terapiaOnlineContentBrainDecor",
+          "terapia-psicologica-onlineContentInner"
+        ],
+        "id": "contenido",
+        "styles": {
+          "position": "relative",
+          "overflow": "hidden",
+          "isolation": "isolate"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineContentInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-grid ank-gap-16px",
+        "components": [
+          "terapia-psicologica-onlineGrid"
+        ],
+        "styles": {
+          "maxWidth": "1040px",
+          "gridTemplateColumns": "minmax(0, 1fr)",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gap-16px",
+        "components": [
+          "terapia-psicologica-onlineBlock1",
+          "terapia-psicologica-onlineBlock2",
+          "terapia-psicologica-onlineBlock3"
+        ],
+        "styles": {
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineBlock1",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "terapia-psicologica-onlineBlock1Title",
+          "terapia-psicologica-onlineBlock1Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineBlock1Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Privacidad y continuidad",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineBlock1Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "La modalidad online facilita sostener el proceso desde un espacio propio. Antes de cada sesión se cuida que exista privacidad, tiempo suficiente y condiciones adecuadas para conversar.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineBlock2",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "terapia-psicologica-onlineBlock2Title",
+          "terapia-psicologica-onlineBlock2Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineBlock2Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Primera sesión",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineBlock2Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "La primera consulta ayuda a entender qué está pasando, resolver dudas sobre la modalidad y definir una forma de trabajo con objetivos realistas.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineBlock3",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "terapia-psicologica-onlineBlock3Title",
+          "terapia-psicologica-onlineBlock3Body"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "boxShadow": "0 16px 38px rgba(49,85,70,0.08)"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineBlock3Title",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Temas que pueden trabajarse",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-900 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineBlock3Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Ansiedad, estrés, autoestima, relaciones, duelo, cansancio emocional, límites, dependencia emocional y pensamientos recurrentes pueden abordarse desde un proceso profesional.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_65"
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineCta",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-56px ank-bg-secondaryBgColor ank-color-textColor",
+        "components": [
+          "terapiaOnlineCtaBrainDecor",
+          "terapia-psicologica-onlineCtaInner"
+        ],
+        "id": "contacto",
+        "styles": {
+          "position": "relative",
+          "overflow": "hidden",
+          "isolation": "isolate",
+          "paddingBottom": "clamp(104px, 10vw, 136px)"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineCtaInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-grid ank-gap-16px ank-textAlign-center",
+        "components": [
+          "terapia-psicologica-onlineCtaTitle",
+          "terapia-psicologica-onlineCtaBody",
+          "terapia-psicologica-onlineCtaLink"
+        ],
+        "styles": {
+          "maxWidth": "780px",
+          "justifyItems": "stretch",
+          "gridTemplateColumns": "minmax(0, 1fr)",
+          "minWidth": "0",
+          "position": "relative",
+          "zIndex": "1"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineCtaTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Agenda por WhatsApp",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontWeight-900 ank-lineHeight-1_1"
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineCtaBody",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Escribe para consultar disponibilidad, resolver dudas sobre la modalidad online y acordar el horario de tu primera consulta.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_6",
+        "styles": {
+          "maxWidth": "680px"
+        }
+      }
+    },
+    {
+      "id": "terapia-psicologica-onlineCtaLink",
+      "type": "link",
+      "config": {
+        "href": "https://wa.me/5215541892942?text=Hola%20Roberto%2C%20quiero%20agendar%20una%20cita%20de%20terapia%20psicol%C3%B3gica%20online.%20%C2%BFMe%20puedes%20compartir%20disponibilidad%3F",
+        "text": "Agendar cita por WhatsApp",
+        "ariaLabel": "Agendar cita por WhatsApp",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-paddingInline-18px ank-paddingBlock-12px ank-bg-successColor ank-color-onSuccessColor ank-fontWeight-900 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "target": "_blank",
+        "styles": {
+          "borderRadius": "999px",
+          "color": "var(--ank-onSuccessColor)",
+          "whiteSpace": "normal",
+          "maxWidth": "100%"
+        },
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "id": "terapiaOnlineVisualSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-40px ank-color-textColor ank-bg-bgColor",
+        "components": [
+          "terapiaOnlineVisualBrainDecor",
+          "terapiaOnlineVisualInner"
+        ],
+        "styles": {
+          "paddingTop": "40px",
+          "paddingBottom": "18px",
+          "position": "relative",
+          "overflow": "hidden",
+          "isolation": "isolate"
+        },
+        "id": "visual"
+      }
+    },
+    {
+      "id": "terapiaOnlineVisualInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-grid ank-gap-16px",
+        "components": [
+          "terapiaOnlineVisualFrame"
+        ],
+        "styles": {
+          "maxWidth": "1040px",
+          "gridTemplateColumns": "minmax(0, 1fr)",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "terapiaOnlineVisualFrame",
+      "type": "container",
+      "config": {
+        "tag": "figure",
+        "classes": "ank-m-0 ank-overflow-hidden ank-border-1px__solid__secondaryBgColor ank-bg-bgColor",
+        "components": [
+          "terapiaOnlineVisualImage"
+        ],
+        "styles": {
+          "borderRadius": "6px",
+          "aspectRatio": "3 / 2",
+          "maxHeight": "540px",
+          "boxShadow": "0 18px 44px rgba(49,85,70,0.1)"
+        }
+      }
+    },
+    {
+      "id": "terapiaOnlineVisualImage",
+      "type": "media",
+      "config": {
+        "id": "terapiaOnlineVisualImage",
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/terapia-psicologica-online/section-images/online-therapy-desk.jpg",
+        "alt": "Espacio privado para una sesión de terapia psicológica online",
+        "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-cover",
+        "width": 1536,
+        "height": 1024,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "terapiaOnlineHeroBrainDecor",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-block",
+        "components": [
+          "terapiaOnlineHeroBrainDecorImage"
+        ],
+        "role": "presentation",
+        "styles": {
+          "position": "absolute",
+          "pointerEvents": "none",
+          "zIndex": "0",
+          "width": "clamp(78px, 9vw, 136px)",
+          "aspectRatio": "1 / 1",
+          "opacity": "0.92",
+          "filter": "drop-shadow(0 10px 18px rgba(49,85,70,0.16)) drop-shadow(0 1px 0 rgba(255,255,255,0.85))",
+          "transform": "rotate(5deg)",
+          "right": "max(12px, calc((100vw - 900px) / 2 + 8px))",
+          "top": "clamp(10px, 2vw, 24px)"
+        }
+      }
+    },
+    {
+      "id": "terapiaOnlineHeroBrainDecorImage",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/mascot-images/brain-meditating.png",
+        "alt": " ",
+        "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-contain",
+        "width": 420,
+        "height": 420,
+        "decoding": "async",
+        "loading": "eager"
+      }
+    },
+    {
+      "id": "terapiaOnlineCtaBrainDecor",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-block",
+        "components": [
+          "terapiaOnlineCtaBrainDecorImage"
+        ],
+        "role": "presentation",
+        "styles": {
+          "position": "absolute",
+          "pointerEvents": "none",
+          "zIndex": "2",
+          "width": "clamp(78px, 9vw, 132px)",
+          "aspectRatio": "1 / 1",
+          "opacity": "0.94",
+          "filter": "drop-shadow(0 10px 18px rgba(49,85,70,0.16)) drop-shadow(0 1px 0 rgba(255,255,255,0.85))",
+          "transform": "rotate(-8deg)",
+          "right": "clamp(12px, 5vw, 80px)",
+          "bottom": "clamp(10px, 2vw, 24px)"
+        }
+      }
+    },
+    {
+      "id": "terapiaOnlineCtaBrainDecorImage",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/mascot-images/brain-waving.png",
+        "alt": " ",
+        "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-contain",
+        "width": 420,
+        "height": 420,
+        "decoding": "async",
+        "loading": "eager"
+      }
+    },
+    {
+      "id": "terapiaOnlineContentBrainDecor",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-block",
+        "components": [
+          "terapiaOnlineContentBrainDecorImage"
+        ],
+        "role": "presentation",
+        "styles": {
+          "position": "absolute",
+          "pointerEvents": "none",
+          "zIndex": "0",
+          "width": "clamp(52px, 7vw, 108px)",
+          "aspectRatio": "1 / 1",
+          "opacity": "0.88",
+          "filter": "drop-shadow(0 10px 18px rgba(49,85,70,0.16)) drop-shadow(0 1px 0 rgba(255,255,255,0.85))",
+          "transform": "rotate(-5deg)",
+          "left": "max(12px, calc((100vw - 1040px) / 2 - 128px))",
+          "top": "clamp(4px, 1vw, 12px)"
+        }
+      }
+    },
+    {
+      "id": "terapiaOnlineContentBrainDecorImage",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/mascot-images/brain-reading.png",
+        "alt": " ",
+        "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-contain",
+        "width": 420,
+        "height": 420,
+        "decoding": "async",
+        "loading": "eager"
+      }
+    },
+    {
+      "id": "terapiaOnlineVisualBrainDecor",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-block",
+        "components": [
+          "terapiaOnlineVisualBrainDecorImage"
+        ],
+        "role": "presentation",
+        "styles": {
+          "position": "absolute",
+          "pointerEvents": "none",
+          "zIndex": "0",
+          "width": "clamp(74px, 8vw, 124px)",
+          "aspectRatio": "1 / 1",
+          "opacity": "0.90",
+          "filter": "drop-shadow(0 10px 18px rgba(49,85,70,0.16)) drop-shadow(0 1px 0 rgba(255,255,255,0.85))",
+          "transform": "rotate(6deg)",
+          "right": "max(12px, calc((100vw - 1040px) / 2 + 8px))",
+          "bottom": "clamp(10px, 2vw, 24px)"
+        }
+      }
+    },
+    {
+      "id": "terapiaOnlineVisualBrainDecorImage",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/mascot-images/brain-heart.png",
+        "alt": " ",
+        "classes": "ank-width-100per ank-height-100per ank-display-block ank-objectFit-contain",
+        "width": 420,
+        "height": 420,
+        "decoding": "async",
+        "loading": "eager"
+      }
+    }
+  ]
+}

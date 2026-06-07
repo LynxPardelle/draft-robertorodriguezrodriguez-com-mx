@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "pageId": "sobre-roberto",
+  "domain": "robertorodriguezrodriguez.com.mx",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "sobre-robertoPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "phase-2-local-draft",
+    "routePurpose": "sobre-roberto"
+  },
+  "seo": {
+    "title": {
+      "es": "Roberto Rodríguez Rodríguez | Psicólogo clínico online"
+    },
+    "description": {
+      "es": "Conoce el perfil profesional de Roberto Rodríguez Rodríguez, psicólogo clínico con cédula profesional vigente y atención online en México."
+    },
+    "openGraph": {
+      "title": {
+        "es": "Roberto Rodríguez Rodríguez | Psicólogo clínico online"
+      },
+      "description": {
+        "es": "Conoce el perfil profesional de Roberto Rodríguez Rodríguez, psicólogo clínico con cédula profesional vigente y atención online en México."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "url": "https://robertorodriguezrodriguez.com.mx/sobre-roberto",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Roberto Rodríguez Rodríguez | Psicólogo clínico online"
+      },
+      "description": {
+        "es": "Conoce el perfil profesional de Roberto Rodríguez Rodríguez, psicólogo clínico con cédula profesional vigente y atención online en México."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/robertorodriguezrodriguez.com.mx/shared/seo-images/default-og-card.jpg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://robertorodriguezrodriguez.com.mx/sobre-roberto",
+    "keywords": {
+      "es": [
+        "terapia psicológica online",
+        "psicólogo online México",
+        "consulta psicológica online",
+        "Roberto Rodríguez Rodríguez",
+        "terapia para adolescentes desde 15 años",
+        "consulta de especialidad en autismo",
+        "orientación por sospecha de autismo",
+        "terapia psicológica por WhatsApp"
+      ]
+    },
+    "robots": "index,follow,max-image-preview:large"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Roberto Rodríguez Rodríguez | Psicólogo clínico online",
+        "description": "Conoce el perfil profesional de Roberto Rodríguez Rodríguez, psicólogo clínico con cédula profesional vigente y atención online en México.",
+        "url": "https://robertorodriguezrodriguez.com.mx/sobre-roberto",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "contenido",
+      "contacto"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}
