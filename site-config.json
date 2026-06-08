@@ -10,13 +10,6 @@
     "terapiapsicologicamexico.com",
     "terapiapsicologicamexico.com.mx"
   ],
-  "environments": {
-    "test": {
-      "aliases": [
-        "test.robertorodriguezrodriguez.zoolandingpage.com.mx"
-      ]
-    }
-  },
   "defaultPageId": "default",
   "notFoundPageId": "not-found",
   "routes": [
