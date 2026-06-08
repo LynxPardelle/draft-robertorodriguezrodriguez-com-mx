@@ -178,6 +178,15 @@
         ]
       },
       "robots": "index,follow,max-image-preview:large"
+    },
+    "hostOverrides": {
+      "robertorodriguezrodriguez.zoolandingpage.com.mx": {
+        "seo": {
+          "canonicalOrigin": "https://robertorodriguezrodriguez.com.mx",
+          "enforceCanonicalHost": false,
+          "forceHttps": true
+        }
+      }
     }
   }
 }
