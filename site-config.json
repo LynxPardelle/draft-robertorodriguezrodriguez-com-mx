@@ -1,15 +1,7 @@
 {
   "version": 1,
   "domain": "robertorodriguezrodriguez.com.mx",
-  "aliases": [
-    "robertorodriguezrodriguez.com",
-    "robertorodriguezrodriguez.zoolandingpage.com",
-    "robertorodriguezrodriguez.zoolandingpage.com.mx",
-    "terapiapsicologicaonlinemexico.com",
-    "terapiapsicologicaonlinemexico.com.mx",
-    "terapiapsicologicamexico.com",
-    "terapiapsicologicamexico.com.mx"
-  ],
+  "aliases": [],
   "defaultPageId": "default",
   "notFoundPageId": "not-found",
   "routes": [
